@@ -1,0 +1,69 @@
+import React, { Component } from 'react';
+import { Table } from '@jpmorganchase/perspective';
+import { ServerRespond } from './DataStreamer';
+import { DataManipulator } from './DataManipulator';
+import './Graph.css';
+
+interface IProps {
+  data: ServerRespond[],
+}
+
+interface PerspectiveViewerElement extends HTMLElement {
+  load: (table: Table) => void,
+}
+class Graph extends Component<IProps, {}> {
+  table: Table | undefined;
+
+  render() {
+    return React.createElement('perspective-viewer');
+  }
+
+  componentDidMount() {
+    // Get element from the DOM.
+    const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
+    //changed schema to track ratios of the price of stocks and create bounds for the trigger_alert.
+    const schema = {
+      price_abc: 'float',
+      price_def: 'float',
+      ratio: 'float',
+      timestamp: 'date',
+      upper_bound: 'float',
+      lower_bound: 'float',
+      trigger_alert: 'float',
+    };
+
+    if (window.perspective && window.perspective.worker()) {
+      this.table = window.perspective.worker().table(schema);
+    }
+      //removed column pivots as we're only concerned with the ratio, bound and trigger alert and
+      //not the individual stock price hence the changes to columns
+      // aggregates changed to match schema and to ensure duplicated data is consolidated to one data point
+    if (this.table) {
+      // Load the `table` in the `<perspective-viewer>` DOM reference.
+      elem.load(this.table);
+      elem.setAttribute('view', 'y_line');
+      elem.setAttribute('row-pivots', '["timestamp"]');
+      elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
+      elem.setAttribute('aggregates', JSON.stringify({
+        price_abc: 'avg',
+        price_def: 'avg',
+        ratio: 'avg',
+        timestamp: 'distinct count',
+        upper_bound: 'avg',
+        lower_bound: 'avg',
+        trigger_alert: 'avg',
+      }));
+    }
+  }
+
+  componentDidUpdate() {
+    if (this.table) {
+      //generateRow now returns a singular row object so updated function to reflect this ([] added)
+      this.table.update([
+        DataManipulator.generateRow(this.props.data),
+      ]);
+    }
+  }
+}
+
+export default Graph;
