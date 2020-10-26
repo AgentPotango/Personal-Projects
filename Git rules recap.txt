@@ -1,0 +1,100 @@
+** NOTE the main branch is the main branch of the repository (how you get stuff to show up on github)
+** use another branch name for stuff that needs to be merged.
+or create a new repository on the command line
+------------------------------------------------
+create your file or folder in your directory and do this.
+cd to directory
+echo "# Repository-Info-Always" >> README.md
+git init
+git add README.md (or the folder/names of files you want use . for all or even *)
+git status (checks if they're added)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<username here>/<respository name here>.git
+git push -u origin main
+                
+…or push an existing repository from the command line
+-------------------------------------------------------
+git remote add origin https://github.com/<username here>/<respository name here>.git
+git branch -M main
+git push -u origin main
+
+clone repository
+----------------------------
+make a new directory/folder
+cd to directory
+git clone "urlgoeshere.git"
+
+fetch repository?
+--------------------------
+git fetch origin
+
+git fetch really only downloads new data from a remote repository - 
+but it doesn't integrate any of this new data into your working files. 
+Fetch is great for getting a fresh view on all the things that happened in a remote repository.
+Due to it's "harmless" nature, you can rest assured: fetch will never manipulate, destroy, 
+or screw up anything. This means you can never fetch often enough.
+
+pull repository
+-----------------------
+git checkout <branch name>
+git pull origin <branch name> (pulls the branch from the origin point)
+
+------------------------------------------------------
+
+git init (initialises a git directory)
+git touch "potato.txt" (makes a file called potato.txt)
+
+git status (checks which file git knows exist)
+"Hey, we noticed you created a new file called potato.txt but unless you use the 'git add' command we aren't going to do anything with it."
+
+git add <filename> (adds file to a commit)
+
+git status (says new file to say it acknolwedges it. NOT YET COMMITED!)
+
+git commit -m "Your Message about the commit here" (you now have commited the files)
+
+Branching
+----------------
+Say you want to make a new feature but are worried about making changes to the main project while developing the feature. 
+This is where git branches come in. 
+Branches allow you to move back and forth between 'states' of a project. 
+If you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project.
+Once you're done with the page, you can merge your changes from your branch into the primary branch
+When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files. 
+
+Assuming you are on the primary branch and want to create a new branch:
+
+git checkout -b <my branch name> (creates a new branch and MOVES YOU TO THAT BRANCH)
+
+git branch (confirms the branch you are on with the * next to it)
+
+git merge (merges changes https://git-scm.com/docs/git-merge)
+
+Adding changes to a github repository:
+--------------
+
+git remote add origin https://github.com/<username here>/<respository name here>.git (get repo's link and append .git) (where your commited files will be going)
+
+git push -u origin master (pushes to the master branch)
+
+
+pushing a branch
+------------
+git push origin <name-of-your-branch> (pushes branch to the declared origin earlier)
+
+pull request
+------------
+alert a repo's owner that you want to make some changes to their code
+Allows them to review the code and make sure it looks good before putting your changes into the primary branch
+
+button = green = merge changes to primary branch
+
+Button = grey = merge conflict. 
+change in 1 file conflicts with another and github can't figure out what to use so you have to tell it manually. 
+
+
+
+
+
+
