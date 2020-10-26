@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE marking-scheme SYSTEM "/opt/info/courses/LabPrint/ms.dtd">
+<marking-scheme>
+  <course> COMP23420 </course>
+  <exercise> 3 </exercise>
+  <title> PSSM Sequence, Communication and State Machine diagrams </title>
+  <file type = "comp" action="noprint"> sequence.pdf </file>
+  <file type = "comp" action="noprint"> communication.pdf </file>
+  <file type = "comp" action="noprint"> state-machine.pdf </file>
+  <mark-item>
+     <text> PSSM Sequence Diagrams </text>
+     <mark> 10 </mark>
+     <mark-sub-item>
+       <text> Good use of notation; diagram clear, titled and, ideally
+       annotated (clearly show sequence)</text>
+       <mark> 2 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> Naming conventions  </text>
+       <mark> 2 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> All use cases are present;  </text>
+       <mark> 6 </mark>
+     </mark-sub-item>
+  </mark-item>
+  <mark-item>
+     <text> PSSM Communication  Diagrams </text>
+     <mark> 5 </mark>
+     <mark-sub-item>
+       <text> Good use of notation; diagram clear, titled and, ideally
+       annotated </text>
+       <mark> 1 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> Naming conventions  </text>
+       <mark> 1 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> All use cases are present;  </text>
+       <mark> 3 </mark>
+     </mark-sub-item>
+  </mark-item>
+  <mark-item>
+     <text> PSSM State Machine  Diagrams </text>
+     <mark> 5 </mark>
+     <mark-sub-item>
+       <text> States are present and named accordingly (noun, vb-ing) </text>
+       <mark> 2 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> Events are present and named accordingly  </text>
+       <mark> 1 </mark>
+     </mark-sub-item>
+     <mark-sub-item>
+       <text> Transitions are clearly depicted and have arrows to
+       indicate sequence;  </text>
+       <mark> 2 </mark>
+     </mark-sub-item>
+  </mark-item>
+</marking-scheme>
