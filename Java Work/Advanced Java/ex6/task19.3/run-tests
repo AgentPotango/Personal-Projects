@@ -1,0 +1,11 @@
+#!/bin/bash
+
+java MeanMinMaxMinusMean 1 
+java MeanMinMaxMinusMean 1 2
+java MeanMinMaxMinusMean 1 2 3
+java MeanMinMaxMinusMean 1 1 1
+java MeanMinMaxMinusMean 99 98 97
+java MeanMinMaxMinusMean 1000 4 6 1
+java MeanMinMaxMinusMean 2 3 4 5 6 7
+java MeanMinMaxMinusMean 18 17 15 11
+

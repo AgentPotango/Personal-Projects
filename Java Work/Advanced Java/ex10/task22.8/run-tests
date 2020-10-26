@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo '------'
+echo 'One Letter'
+echo '-----'
+java Anagrams a
+echo '------'
+echo 'Two Letters'
+echo '-----'
+java Anagrams ab
+echo '------'
+echo 'Same Letters'
+echo '-----'
+java Anagrams all
+echo '------'
+echo 'Word with Space'
+echo '-----'
+java Anagrams "c d"
+echo '------'
+echo 'Five Letter Word'
+echo '-----'
+java Anagrams Hello
+echo '------'
+echo '4 Same Letters'
+echo '-----'
+java Anagrams bbbb
+
+
+

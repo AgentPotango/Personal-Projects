@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{BookMICS}
+{\em A Mathematical Introduction to Compressive Sensing}.
+\newblock Birkhauser, 2013.
+
+\bibitem{TreeSparse}
+Richard Baraniuk.
+\newblock Model-based compressive sensing.
+\newblock \url{http://people.ee.duke.edu/~lcarin/baraniuk.pdf}, visited on
+  2016-03-12.
+
+\bibitem{ItThresh}
+T.~Blumensath and M.~E. Davies.
+\newblock Iterative hard thresholding for compressed sensing.
+\newblock 2008.
+
+\bibitem{B&D}
+T.~Blumensath and M.~E. Davies.
+\newblock Sampling theorems for signals from the union of finite-dimensional
+  linear subspaces.
+\newblock {\em IEEE Transactions on Information Theory (Volume:55 , Issue: 4
+  )}, 2009.
+
+\bibitem{L1Magic}
+E.~Candes and J.~Romberg.
+\newblock ℓ1-magic.
+\newblock \url{http://statweb.stanford.edu/~candes/l1magic/}, visited on
+  2015-11-21.
+
+\bibitem{delin}
+E.~J. Candes and T.~Tao.
+\newblock Decoding by linear programming.
+\newblock {\em IEEE Transactions on Information Theory (Volume:51 , Issue: 12
+  )}, 2005.
+
+\bibitem{ICS}
+Emmanuel~J. Candes and Michael~B. Wakin.
+\newblock An introduction to compressive sampling.
+\newblock {\em IEEE Signal Processing Magazine [21]}, 2008.
+
+\bibitem{STOMP}
+Iddo Drori Jean-Luc~Starck David L.~Donoho, Yaakov~Tsaig.
+\newblock Sparse solution of underdetermined linear equations by stagewise
+  orthogonal matching pursuit (stomp).
+\newblock {\em IEEE Transactions on Information Theory (Volume:58 , Issue: 2 ),
+  year = {2012},}.
+
+\bibitem{CoSaMP}
+Iddo Drori Jean-Luc~Starck David L.~Donoho, Yaakov~Tsaig.
+\newblock Cosamp: Iterative signal recovery from incomplete and inaccurate
+  samples.
+\newblock 2009.
+
+\bibitem{CSDon}
+D.~Donoho.
+\newblock Compressed sensing.
+\newblock {\em IEEE Transactions on Information Theory (Volume:52 , Issue: 4
+  )}, 2006.
+
+\bibitem{UPSR}
+D.~L. Donoho and P.~B. Stark.
+\newblock Uncertainty principles and signal recovery.
+\newblock {\em SIAM (Volume:49 , Issue: 3 )}, 1989.
+
+\bibitem{RBUC}
+J.~Romberg E.~Candes and T.~Tao.
+\newblock Robust uncertainty principles: Exact signal reconstruction from
+  highly incomplete frequency information.
+\newblock {\em IEEE Transactions on Information Theory (Volume:52 , Issue: 2
+  )}, 2006.
+
+\bibitem{SSR}
+Justin~Romberg Emmanuel~Candes and Terence Tao.
+\newblock Stable signal recovery from incomplete and inaccurate measurements.
+\newblock {\em Numerical Analysis, volume = {arXiv:math/0503066 [math.NA]}},
+  2005.
+
+\bibitem{HSW-MRI}
+howstuffworks.com.
+\newblock Mri scan steps.
+\newblock \url{http://science.howstuffworks.com/mri3.htm}, visited on
+  2016-01-17.
+
+\bibitem{Brain2}
+Nuada~Medical/Wellcome Images.
+\newblock 3t mri image of a human head with a pituitary tumour.
+\newblock \url{http://wellcomeimages.org/}, visited on 2015-11-23.
+
+\bibitem{sparseMRI}
+John M.~Pauly Michael~Lustig, David~Donoho.
+\newblock Sparse mri: The application of compressed sensning for rapid mr
+  imaging.
+\newblock {\em Magnetic Resonance in Medicine}, 2007.
+
+\bibitem{DS:A&A}
+S.~Muthukrishnan.
+\newblock {\em Data Streams: Algorithms and Applications}.
+\newblock Now publishers, 2005.
+
+\bibitem{ROMP2}
+D.~Needell and R.~Vershynin.
+\newblock Signal recovery from incomplete and inaccurate measurements via
+  regularized orthogonal matching pursuit.
+\newblock 2007.
+
+\bibitem{ROMP1}
+D.~Needell and R.~Vershynin.
+\newblock Uniform uncertainty principle and signal recovery via regularized
+  orthogonal matching pursuit.
+\newblock 2007.
+
+\bibitem{NHS-MRI}
+NHS.
+\newblock Mri scan.
+\newblock \url{http://www.nhs.uk/conditions/MRI-scan/Pages/Introduction.aspx},
+  visited on 2016-01-02.
+
+\bibitem{Brain1}
+Sean Novak.
+\newblock T2-weighted mr image of the brain.
+\newblock \url{https://commons.wikimedia.org/w/index.php?curid=39617865},
+  visited on 2015-11-23.
+
+\bibitem{MBCS}
+Marco F.~Duarte Richard G.~Baraniuk, Volkan~Cevher and Chinmay Hegde.
+\newblock Model-based compressive sensing.
+\newblock {\em Information Theory, volume = {arXiv:0808.3572v5 [cs.IT]}}, 2009.
+
+\bibitem{BP-Atomic}
+D.~L.~Donoho S.~S.~Chen and M.~A. Saunders.
+\newblock Atomic decomposition by basis pursuit.
+\newblock {\em SIAM Review, 43}, 2001.
+
+\bibitem{GP}
+J.~Tropp and A.C. Gilbert.
+\newblock Signal recovery from partial information via orthogonal matching
+  pursuit.
+\newblock {\em IEEE Transactions on Information Theory (Volume:53 , Issue: 12
+  )}, 2007.
+
+\bibitem{GP-Orthog}
+J.~Tropp and A.C. Gilbert.
+\newblock Signal recovery from random measurements via orthogonal matching
+  pursuit.
+\newblock {\em IEEE Transactions on Information Theory (Volume:53 , Issue: 12
+  )}, 2007.
+
+\bibitem{Wikipedia}
+Wikipedia.
+\newblock Compressed sensing.
+\newblock \url{https://en.wikipedia.org/wiki/Compressed_sensing}, visited on
+  2016-01-02.
+
+\bibitem{NyquistWiki}
+Wikipedia.
+\newblock Nyquist–shannon sampling theorem.
+\newblock \url{https://en.wikipedia.org/wiki/Nyquist-Shannon_sampling_theorem},
+  visited on 2016-03-20.
+
+\bibitem{CST&A}
+Gitta~Kutyniok Yonina C.~Eldar.
+\newblock {\em Compressed Sensing Theory and Applications}, volume ISBN:
+  9781107005587.
+\newblock 2012.
+
+\bibitem{MRImodel}
+Jian-Feng Cai Di Guo Zhong Chen Xiaobo~Qu Yunsong~Liu, Zhifang~Zhan.
+\newblock Projected iterative soft-thresholding algorithm for tight frames in
+  compressed sensing magnetic resonance imaging.
+\newblock {\em Medical Physics}, arXiv:1504.07786 [physics.med-ph], 2015.
+
+\end{thebibliography}

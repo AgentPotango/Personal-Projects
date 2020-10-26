@@ -1,0 +1,14 @@
+#!/bin/bash
+set -v
+java Power 0 0
+java Power 2 2
+java Power -2 2
+java Power -3 1
+java Power 4 7
+java Power -6 9
+java Power 24 4
+java Power 100 5
+java Power 2 30
+java Power 2 31
+java Power 2 32
+

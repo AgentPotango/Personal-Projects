@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\title{COMP26120 Lab 13: Background}
+\author{?}
+
+\begin{document}
+\maketitle
+
+% PART 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{The small-world hypothesis}
+\label{sec:small world}
+% Here give your statement of the small-world hypothesis and how you
+% are going to test it.
+
+The small-word hypothesis is that (in the context of the exercise) all the friends
+from the two universities can be found by a very few number of steps.
+It is linked to "6 degrees of seperation" which suggests that everyone is related 
+to everyone else.
+
+Everyone and everything is six or fewer steps away
+from any other person in the world, so that a chain of 
+"a friend of a friend" statements can be made to connect any two people 
+in a maximum of six steps
+
+I will test the small-world hypothesis by using the .gx files and finding out if
+the distance from all the nodes (the friends) to each other is 6 or fewer steps by the use
+of dijkstra's algorithm. 
+
+
+\section{Complexity Arguments}
+\label{sec:complexity}
+% Write down the complexity of Dijkstra's algorithm and of Floyd's algorithm.
+% Explain why, for these graphs, Dijkstra's algorithm is more efficient.
+
+The complexity of Dijkstras algorith is O(EVLogV) where E is edges and V is vertices
+This is because I use a binary heap implementation where as a fibonacci heap implementation
+would use O(E + VLogV)
+
+Floyd's algorithm's worst case is O(V^3) which is much worse than dijkstra's as 
+it is dependent on the number of vertices where each node can have 1+ of.
+
+As these graphs have lots of vertices and dijkstras uses heap sort which is VlogV instead of V^3,
+dijkstra's is much better to use for these graphs
+
+
+\section{Part 1 results}
+\label{sec:part1}
+% Give the results of part one experiments.
+
+I found that not all of the nodes were 6 degrees of seperation from each other.
+
+However, Most nodes from both Caltech and Oklahoma were < 6 degrees of 
+seperation from each other which supports the small world hypothesis
+
+% PART 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Part 2 complexity analysis}
+\label{sec:complexity2}
+% Give the complexity of the heuristic route finder.
+
+
+\section{Part 2 results}
+\label{sec:part2}
+% Give the results of part two experiments.
+
+
+\end{document}
+

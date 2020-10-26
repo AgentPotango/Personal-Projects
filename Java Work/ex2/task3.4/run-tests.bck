@@ -1,0 +1,8 @@
+#!/bin/bash
+set -v
+java YearsBeforeRetirement 27
+java YearsBeforeRetirement 67
+java YearsBeforeRetirement 68
+java YearsBeforeRetirement 69
+java YearsBeforeRetirement 100
+java YearsBeforeRetirement Kashif

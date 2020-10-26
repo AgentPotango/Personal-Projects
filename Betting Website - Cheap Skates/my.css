@@ -1,0 +1,40 @@
+body{
+font-size: 14px;
+background-color: rgb(227, 224, 222);
+} 
+
+#Header {
+padding-top: 40px;
+text-align: center;
+}
+
+#HeaderLeft{
+padding-top: 40px;
+}
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #FFFFFF;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+/* help from fuelyourcreativity.com */
+background-color: rgba(153, 153, 153, 0.8);
+color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: black;
+} 
+
+

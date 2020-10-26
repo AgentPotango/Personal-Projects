@@ -1,0 +1,9 @@
+#!/bin/bash
+set -v
+java FahrenheitToCelsius 0
+java FahrenheitToCelsius 27.0
+java FahrenheitToCelsius 32
+java FahrenheitToCelsius 94.659
+java FahrenheitToCelsius 87
+java FahrenheitToCelsius 122
+java FahrenheitToCelsius -40

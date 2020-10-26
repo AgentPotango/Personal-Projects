@@ -1,0 +1,33 @@
+%part2C(3,3,maindata,100,benchmarkdata,50)
+
+function part2C(noOfGraphs,valuesArray, featureNo,trainingData, noOfTrainData,...
+                testingData, noOfTestData)
+
+noOfValues = size(valuesArray,1);
+noOfTrainExamples = noOfTrainData * noOfValues;
+graphsAccuracy = zeros(noOfTrainExamples,noOfGraphs);
+for i = 1:noOfGraphs
+    [train,trainlbl] = part2A(trainingData,noOfTrainData,valuesArray);
+    [test,testlbl] = part2A(testingData,noOfTestData,valuesArray);
+    [accuracy, ~] = part2B(train,test,trainlbl,testlbl,featureNo);
+    graphsAccuracy(:,i) = accuracy;
+end
+feature = extractmyfeatures(reshape(train(1,:),16,16),featureNo);
+numberOfFeatures = size(feature,2);
+
+meanAccuracy = mean(graphsAccuracy,2);
+averageOfMeanAccuracy = mean(meanAccuracy);
+
+figure();
+x = 1:1:noOfTrainExamples;
+y = meanAccuracy;
+e = std(y)*ones(size(x));
+errorbar(x,y,e);
+txt=char(['Mean Testdata Accuracy (for ' num2str(numberOfFeatures) ...
+         ' Features and '  num2str(noOfGraphs) ' Graphs) '], ...
+         'with respect to K (With Standard Deviation Error Bars)');
+title(txt);
+
+disp(['Average Accuracy is: ' num2str(averageOfMeanAccuracy * 100) '%']);
+score = (averageOfMeanAccuracy * 100)/numberOfFeatures;
+disp(['Feature Score: ' num2str(score)]);

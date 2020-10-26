@@ -1,0 +1,8 @@
+#!/bin/bash
+
+java DeleteField 2 chicken.txt
+java DeleteField 3 chicken.txt
+java DeleteField 2 chicken.txt Hello.txt
+java DeleteField 4 chicken.txt Hello.txt
+
+

@@ -1,0 +1,3 @@
+[trainingdataset, labels] = maketrainingset(maindata)
+
+knearest(1,trainingdataset(1,:), trainingdataset, labels)

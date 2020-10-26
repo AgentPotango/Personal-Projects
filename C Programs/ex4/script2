@@ -1,0 +1,4 @@
+#!/bin/bash
+
+part1 < run-test
+echo '10'

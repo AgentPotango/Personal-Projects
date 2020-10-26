@@ -1,0 +1,244 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#define __USE_BSD
+#include <string.h>
+#include <math.h>
+
+#include "speller.h"
+#include "dict.h"
+
+Table openAddressing(Key_Type element, Table hashTable);
+typedef struct { // hash-table entry
+  Key_Type element; // only data is the key itself
+  enum {empty, in_use, deleted} state;
+} cell;
+
+typedef unsigned int Table_size; // type for size-of or index-into hash table
+
+struct table {
+  cell *cells; 
+  Table_size table_size; // cell cells [table_size];
+  Table_size num_entries; // number of cells in_use
+  // add anything else that you need
+};
+
+
+Table initialize_table (Table_size sizeOfTable) {
+
+	Table newTable = malloc(sizeof(struct table));
+	
+	//Records the size of a sell
+	int cellSize = sizeof(cell);
+	int count = 0;
+	
+	//Allocates space to all table cells
+	newTable->cells = malloc(sizeOfTable * cellSize);
+	//Set table size
+	newTable->table_size = sizeOfTable;
+	//Number of entries is currently 0
+	newTable->num_entries = 0;
+	
+	//Loop through each cell and set their state to empty
+	for (count = 0; count < sizeOfTable; count++)
+		newTable->cells[count].state = empty;
+
+	return newTable;
+}
+
+int hashFunction(Key_Type element, Table hashTable) {
+	
+	//Too large and might go past int max
+	int prime = 3;
+	int hashValue;
+	int length = strlen(element);
+	
+	//calculate polynomial hash value with asci value of each char multiplied by 
+	//the prime to the power of the index of the character in the string/word
+	for (int i = 0; i<length; i++) {
+		hashValue += (int)element[i] * pow(prime, length - 1 -i);
+	} 
+	hashValue = hashValue % hashTable->table_size;
+
+	return hashValue;
+}
+
+Table linearProbing(Key_Type element, Table hashTable) {
+	int locationIndex;
+	cell *currentCell;
+	//gets the value of the hash function for the first element
+	locationIndex = hashFunction(element, hashTable);
+	
+	//Makes the address of the current cells point to the cell which should 
+	//contain the element
+	currentCell = &hashTable->cells[locationIndex];
+	
+	//while the currentCell is in use, do A[i+j] mod N (where i = locationIndex)
+	//increment hashvalue by j, and then try modding it with the hashTable Size
+	int j = 1;
+	while (currentCell->state == in_use) {
+		locationIndex = (locationIndex + j) % (hashTable->table_size);
+		currentCell = &hashTable->cells[locationIndex];
+		j++;
+	} 
+	
+	currentCell->state = in_use;
+	currentCell->element = strdup(element);
+	hashTable->num_entries++;
+	
+	return hashTable;
+} 
+
+Table quadraticProbing(Key_Type element, Table hashTable) {
+	int locationIndex;
+	cell *currentCell;
+	//gets the value of the hash function for the first element
+	locationIndex = hashFunction(element, hashTable);
+	
+	//Makes the address of the current cells point to the cell which should 
+	//contain the element
+	currentCell = &hashTable->cells[locationIndex];
+	
+	//while the currentCell is in use, do A[i+j] mod N (where i = locationIndex)
+	//increment hashvalue by j, and then try modding it with the hashTable Size
+	int j = 1;
+	
+	while (currentCell->state == in_use) {
+		locationIndex = (locationIndex + (int)pow(j,2)) % (hashTable->table_size);
+		currentCell = &hashTable->cells[locationIndex];
+		j++;
+	} 
+	
+	currentCell->state = in_use;
+	currentCell->element = strdup(element);
+	hashTable->num_entries++;
+	
+	return hashTable;
+} 
+
+Table doubleHashing(Key_Type element, Table hashTable) {
+	//Too large and might go past int max
+	int prime = 2;
+	int calls = 1;
+	int hashValue;
+	int doubleHashValue;
+	int length = strlen(element);
+	int locationIndex;
+	cell *currentCell;
+	
+	//calculate polynomial hash value with asci value of each char multiplied by 
+	//the prime to the power of the index of the character in the string/word
+	for (int i = 0; i<length; i++) {
+		hashValue += (int)element[i] * pow(prime, length - 1 -i);
+	} 
+	doubleHashValue = (hashFunction(element, hashTable) + hashValue) 
+										% hashTable->table_size;
+	locationIndex = doubleHashValue;
+	printf("Adding %s, enetry %d\n", element, hashTable->num_entries);
+	calls++;
+	currentCell = &hashTable->cells[locationIndex];
+	while (currentCell->state == in_use) {
+		locationIndex = (hashFunction(element, hashTable) + calls*hashValue) 
+										% hashTable->table_size;
+		currentCell = &hashTable->cells[locationIndex];
+		calls++;
+	} 
+	
+	currentCell->state = in_use;
+	currentCell->element = strdup(element);
+	hashTable->num_entries++;
+	
+	return hashTable;
+
+
+}
+
+Table openAddressing(Key_Type element, Table hashTable) {
+
+	switch (mode) 
+	{
+		//linear probing
+		case 0: 
+			linearProbing(element, hashTable);
+			break;
+		case 1:
+			quadraticProbing(element, hashTable);
+			break;
+		case 2:
+			doubleHashing(element, hashTable);
+			break;
+		default:
+			linearProbing(element, hashTable);
+	}
+	
+	return hashTable;
+
+}
+
+
+
+Table insert (Key_Type element, Table hashTable) {
+
+	int locationIndex;
+	cell *currentCell;
+	//gets the value of the hash function for the first element
+	locationIndex = hashFunction(element, hashTable);
+	
+	//Makes the address of the current cells point to the cell which should 
+	//contain the element
+	currentCell = &hashTable->cells[locationIndex];
+	
+	if (hashTable->num_entries >= hashTable->table_size)
+	{
+		printf("Table is full\n");
+		exit(0);
+	}
+
+	//If the current cell is not in use, store the element and change the state
+	if (currentCell->state != in_use) 
+	{
+		currentCell->state = in_use;
+		currentCell->element = strdup(element);
+		hashTable->num_entries++;
+	}
+	else
+		openAddressing(element, hashTable);
+
+	return hashTable;
+
+}
+
+Boolean find (Key_Type element, Table hashTable) {
+	
+	//Only store element hash value so can't compare element to element value
+  return FALSE;
+
+}
+
+
+void print_table (Table hashTable) {
+	
+	for (int i = 0; i < hashTable->table_size; i++)
+	{
+		//printf("hi");
+		if (hashTable->cells[i].state == in_use)
+			printf("Element %d: %s\n", i, hashTable->cells[i].element);
+	}
+
+}
+
+void print_stats (Table hashTable) {
+	
+	if (hashTable->num_entries <= 50)
+	{
+		for (int i = 0; i < hashTable->table_size; i++)
+		{
+			if (hashTable->cells[i].state == in_use)
+				printf("Element %d: %s\n", i, hashTable->cells[i].element);
+		}
+	}
+	printf("Number of entries is: %d\n", hashTable->num_entries);
+	
+//NoOfCollsions (need to store global variable via extern in header)
+
+}

@@ -1,0 +1,17 @@
+<table class="invisible">
+  <tr><th>
+  <button type="button" onclick="JavaScript:alert('Once upon a time, there lived a princess and a frog. They both got married and lived happily ever after. The end.')">
+<img src="CheapStakes.jpg" width="50" height="50" alt="Read book" />
+<br/>Points</button>
+  </th>
+  <th>
+<button type="button" onclick="JavaScript:alert('Once upon a time, there lived a princess and a frog. They both got married and lived happily ever after. The end.')">
+<img src="CheapStakes.jpg" width="50" height="50" alt="Read book" />
+<br/>Accuracy</button>
+  </th>
+  <th>
+<button type="button" onclick="JavaScript:alert('Once upon a time, there lived a princess and a frog. They both got married and lived happily ever after. The end.')">
+<img src="CheapStakes.jpg" width="50" height="50" alt="Read book" />
+<br/>Correct</button>
+  </th>
+  </tr>

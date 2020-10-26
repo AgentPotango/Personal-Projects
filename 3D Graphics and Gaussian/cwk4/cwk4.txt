@@ -1,0 +1,13 @@
+1. The value 0 - 256 in a matrix to determine the colour of the pixels
+
+2. 
+r is the number of rows in the image (i.e. the size of the first dimension). = 300
+c is the number of columns in the image (i.e. the size of the second dimension). = 400
+d can be referred to as the "depth" or "planes" of the image (i.e. the size of the third dimension) = 3
+
+3. Creates a zero matrix of the dimensions given (300, 399);
+diff1 shows a black and white image of the image input
+it also has the original image's pixel value of a column
+minus the pixel value of the same image of the previous column
+
+

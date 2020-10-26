@@ -1,0 +1,15 @@
+#!/bin/bash
+set -v
+java SinTable 0 10 90
+java SinTable 140 5 180
+java SinTable 0 1 60
+java SinTable 0 30 270
+java SinTable 90 30 360
+java SinTable -360 180 360
+java SinTable 480 20 600
+java SinTable 120 30 360
+java SinTable 45 45 1080 
+java SinTable 0 15 375
+
+
+

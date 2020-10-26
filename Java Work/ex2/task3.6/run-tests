@@ -1,0 +1,8 @@
+#!/bin/bash
+set -v
+java FishTankMaterials 1 2 3
+java FishTankMaterials 0 3 5
+java FishTankMaterials -6 -4 -3
+java FishTankMaterials 4.0 6.0 7.0
+java FishTankMaterials apples oranges pears
+

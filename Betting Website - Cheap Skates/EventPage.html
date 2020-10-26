@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title> Event Page </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+  </head>
+
+<body>
+  <div id="navigation">
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/Homepage.php">Home page</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/createEvent.html">Events</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/LeagueTable.html">LeaderBoard</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/MyBets.php">My Bets</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/Search.php">Search</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/Logout.php">Logout</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/csSignUp.html">Sign Up</a>
+ <a href="http://soba.cs.man.ac.uk/%7Emillarc2/CheapStakes/csLogin.html">Login</a>
+ 
+</div>
+<div id="navigationLogo">
+
+</div>
+<div class="container">
+
+<div id="templateMiddleBackground">
+  <h1>Event Title </h1>
+  
+  <table style="background-color:#909090;">
+    <tr>
+      <td><img src="James_Bond.jpg"
+       width="200"
+       height="200"
+       alt="Event Picture"></td>
+       <td style="background-color:#585858 ;"><p> This area will include details about the current event 
+               and all the information you need to know on how to place
+               your bet!</p></td>
+    </tr>
+
+    <tr>
+      <td>
+        <p> Category </p></td>
+      <td>
+        <p> 01:13:03:47 (countdown) </p></td>
+      
+      
+    <tr>
+      <td>
+        <form id="prediction" action="placeBet.php" method="post">
+          <input type="radio" name="prediciton" value="1">Win(get odds from server)<br>
+          <input type="radio" name="prediciton" value="2">Loose(get odds from server)<br>
+        </form>
+      </td>
+      <td>
+        <form id="bet" action="placeBet.php" method="post">
+          <p align="right"> Avaliable Points: (get from server)<br>
+          Your Bet: <input type="text" name="bet"><br>
+          <input type="button" value="Place your bet!"></p>
+        </form>
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
+</body>
+</html>

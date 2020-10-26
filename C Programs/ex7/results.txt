@@ -1,0 +1,7 @@
+top book for Anna = 75664
+book id for cheapest over 9.5 is 75270
+
+books-quick only sorts by rating and not relevance and then price etc
+part3 quick sort is not stable. Changes order. 
+
+sort -nk 2,2 -s shortbooks.txt |head-21 | tail-20

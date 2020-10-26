@@ -1,0 +1,5 @@
+#include <stdio.h>  // FILE stderr fopen fclose fprintf printf fgets
+#include <stdlib.h> // exit malloc free atoi abs
+#include <ctype.h> // character classification functions
+
+

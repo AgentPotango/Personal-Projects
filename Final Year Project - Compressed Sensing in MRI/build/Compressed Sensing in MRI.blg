@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: build\Compressed Sensing in MRI.aux
+The style file: plain.bst
+Database file #1: mybib.bib
+I was expecting a `,' or a `}'---line 61 of file mybib.bib
+ : 
+ : @Article{CoSaMP,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 180 of file mybib.bib
+ : 
+ : @Article{B&D,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 196 of file mybib.bib
+ : 
+ : @Misc{L1Magic,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1049 of file plain.bst
+Name 1 in "D. Donoho," has a comma at the end for entry CSDon
+while executing---line 1049 of file plain.bst
+Name 1 in "E. Candes, J. Romberg, and T. Tao" has a comma at the end for entry RBUC
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author, editor, or key in BookMICS
+Too many commas in name 1 of "David L. Donoho, Yaakov Tsaig, Iddo Drori, Jean-Luc Starck" for entry STOMP
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "David L. Donoho, Yaakov Tsaig, Iddo Drori, Jean-Luc Starck" for entry CoSaMP
+while executing---line 1049 of file plain.bst
+Name 1 in "Richard G. Baraniuk, Volkan Cevher, Marco F. Duarte, and Chinmay Hegde" has a comma at the end for entry MBCS
+while executing---line 1049 of file plain.bst
+Name 1 in "S. S. Chen, D. L. Donoho, and M. A. Saunders" has a comma at the end for entry BP-Atomic
+while executing---line 1049 of file plain.bst
+Warning--empty author and editor in BookMICS
+Warning--empty journal in ItThresh
+Too many commas in name 1 of "David L. Donoho, Yaakov Tsaig, Iddo Drori, Jean-Luc Starck" for entry STOMP
+while executing---line 1090 of file plain.bst
+Warning--empty year in STOMP
+Too many commas in name 1 of "David L. Donoho, Yaakov Tsaig, Iddo Drori, Jean-Luc Starck" for entry CoSaMP
+while executing---line 1090 of file plain.bst
+Warning--empty journal in CoSaMP
+Name 1 in "D. Donoho," has a comma at the end for entry CSDon
+while executing---line 1090 of file plain.bst
+Name 1 in "E. Candes, J. Romberg, and T. Tao" has a comma at the end for entry RBUC
+while executing---line 1090 of file plain.bst
+Warning--empty journal in ROMP2
+Warning--empty journal in ROMP1
+Name 1 in "Richard G. Baraniuk, Volkan Cevher, Marco F. Duarte, and Chinmay Hegde" has a comma at the end for entry MBCS
+while executing---line 1090 of file plain.bst
+Name 1 in "S. S. Chen, D. L. Donoho, and M. A. Saunders" has a comma at the end for entry BP-Atomic
+while executing---line 1090 of file plain.bst
+Warning--empty publisher in CST&A
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Yunsong Liu, Zhifang Zhan, Jian-Feng Cai, Di Guo, Zhong Chen, Xiaobo Qu" for entry MRImodel
+while executing---line 1090 of file plain.bst
+(There were 21 error messages)

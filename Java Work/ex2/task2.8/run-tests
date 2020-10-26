@@ -1,0 +1,3 @@
+#!/bin/bash
+set -v
+java Birthday Kashif Hussain 28/10/1993

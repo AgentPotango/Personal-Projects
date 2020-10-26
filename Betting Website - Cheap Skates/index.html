@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Cheap Stakes for Cheap Skates</title>
+	<style>
+
+/* group resets and elements */
+* { margin: 0; padding: 0; }
+
+
+/*html { height: 101%; font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif; background: #fff; }*/
+body { font-size: 62.5%; font-family: Helvetica, Arial, sans-serif; line-height: 10%; }
+
+img { border: 0;}
+
+a { color: #3c86b7; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+ul { line-height: 120%; }
+
+p { font-size: 1.2em; line-height: 1.4em; font-family: Arial, sans-serif; color: #333; margin-bottom: 15px; }
+h1 { font-family: Helvetica, Arial, Verdana, sans-serif; color: #444; font-weight: bold; font-size: 1.7em; line-height: 2.0em; }
+h2 { font-family: Georgia, Tahoma, sans-serif; font-style: italic; font-size: 1.4em; letter-spacing: -0.04em; line-height: 1.8em; }
+h3 { color: #698216; font-weight: normal; font-size: 1.3em; line-height: 1.6em;  }
+h4 { color: #232323; font-family: Arial, Tahoma, sans-serif; font-size: 1.1em; line-height: 1.3em; margin-bottom: 10px; }
+
+/* @group core */
+.wrapper { width: 850px; overflow: hidden; margin: 0 auto; background: none; }
+
+header { height: 100px; background-color: #afafaf; }
+
+header #usernavigation { float: right; line-height: 100px; font-size: 14px; font-weight: bold; color: #555; }
+header #usernavigation a { color: #444; text-shadow: 0px 1px 1px #ddd; }
+
+header #usernavigation a span img { position: relative; top: 8px; background: #cecece; margin-left: 5px; padding: 3px; border: 1px solid #969696; }
+
+#content { display: block; width: 820px; margin: 0 auto;  }
+
+#left { display: block; width: 560px; float: left; overflow: hidden; margin-right: 20px; }
+#right { display: block; width: 240px; float: left; overflow: hidden; }
+
+/* @group navigation */
+nav { width: auto; background: #eee; height: 45px; border-bottom: 1px solid #dadada; margin-bottom: 30px; }
+
+ul#navigation { width: 850px; margin: 0 auto; display: block; list-style: none; }
+ul#navigation li { float: left; line-height: 45px; border: 3px solid #eee; border-top: 0px; border-bottom: 0px; }
+ul#navigation li a { display: block; padding: 0 11px; color: #969696; font-size: 15px; font-weight: bold; text-shadow: 0px 1px 1px #fff; }
+
+ul#navigation li.sel { background: #b4e127; border: 3px solid #c1ff00; border-top: 0px; border-bottom: 0px; }
+ul#navigation li.sel a { color: #fff; text-shadow: 0px 1px 2px #88b618; }
+
+/* @group left */
+#userStats { display: block; width: auto; background-color: #f9f9f9; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 12px; }
+
+#userStats .pic { float: left; display: block; margin-right: 10px; }
+#userStats .pic a img { padding: 7px; background: #fff; border: 1px solid #ccc; }
+
+#userStats .data { float: left; display: block; position:  relative; width: 350px; height: 166px; padding: 4px; padding-left: 15px; background: #e6e6e6; overflow:  hidden; box-sizing: border-box; -moz-box-sizing: border-box; }
+#userStats .data h1 { color: #474747; line-height: 1.6em; text-shadow: 0px 1px 1px #fff; }
+#userStats .data h3 { color: #666; line-height: 0.9em; margin-bottom: 5px; }
+#userStats .data h4 { font-size: 1.2em; line-height: 1.3em; }
+
+#userStats .data .socialMediaLinks { position: absolute; right: 6px; top: 8px; }
+#userStats .data .socialMediaLinks a img { margin-right: 5px; }
+
+#userStats .data .sep { clear: both; margin-top: 40px; width: 320px; height: 1px; border-bottom: 1px solid #ccc; margin-bottom: 0; }
+#userStats .data ul.numbers { list-style: none; width: 320px; padding-top: 7px; margin-top: 0; border-top: 1px solid #fff; color: #676767; }
+#userStats .data ul.numbers li { width: 95px; float: left; display: block; padding-left: 8px; height: 50px; border-right: 1px dotted #bbb; text-transform: uppercase; }
+#userStats .data ul.numbers li strong { color: #434343; display: block; font-size: 3.4em; line-height: 1.1em; font-weight: bold; }
+
+/* @group right */
+#right .getcontent { display: block; margin-bottom: 20px; }
+#right .getcontent .head { background: #589fc6; border: 1px solid #3e82a7; padding-left: 8px; }
+#right .getcontent .head h1 { color: #fafcfd; font-weight: bold; font-size: 1.4em; }
+
+#right .getcontent .boxy { border-radius: 0px 0px 5px 5px; border: 1px solid #ccc; border-top: 0px; padding: 10px 8px; background: #f9f9f9; }
+
+#right .getcontent .boxy .badgeCount { margin-bottom: 30px;  }
+#right .getcontent .boxy .badgeCount a img { margin-right: 8px; }
+#right .getcontent .boxy span { font-size: 1.2em; display: block; margin-bottom: 7px; }
+
+#right .getcontent .boxy .friendslist { display: block; margin-bottom: 15px; }
+#right .getcontent .boxy .friend { border-top: 1px solid #ccc; float: left; height: 40px; padding: 5px 5px 5px 4px; width: 100px; }
+#right .getcontent .boxy .friend img { border: 1px solid #ccc; float: left; padding: 2px; background: #fff; margin-right: 4px; }
+#right .getcontent .boxy .friend .friendly { position: relative; top: 16px; font-size: 1.2em; }
+
+/** @group clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+.nobrdr { border: 0px !important; }
+</style>
+</head>
+
+<body>	
+	<header>
+		<div class="wrapper">
+			<a href="#"><img src="img/Logo.jpg" alt="website logo" title="Cheap Stakes for Cheap Skates" /></a>
+			
+			<span id="usernavigation"><a href="#">Logout</a> - <a href="#">Settings</a> - <a href="#">My Profile<span><img src="img/user_avatar_s.jpg" /></span></a></span>
+		</div>
+	</header>
+	
+	<nav>
+		<ul id="navigation" class="clearfix">
+			<li><a href="#">Homepage</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Friends</a></li>
+			<li><a href="#">Betting History</a></li>
+			<li><a href="#">My Current Bets</a></li>
+			<li><a href="#">Search</a></li>
+		</ul>
+	</nav>
+	
+	<div id="content" class="clearfix">
+		<section id="left">
+			<div id="userStats" class="clearfix">
+				<div class="pic">
+					<a href="#"><img src="img/user_avatar.jpg" width="150" height="150" /></a>
+				</div>
+				
+				<div class="data">
+					<h1>Akaash</h1>
+					<h3>Manchester, England</h3>
+					<div class="socialMediaLinks">
+						<a href="http://twitter.com/#" rel="me" target="_blank"><img src="img/twitter.png" alt="?" /></a>
+						<a href="http://facebook.com/#" rel="me" target="_blank"><img src="img/facebook.png" /></a>
+					</div>
+					<div class="sep"></div>
+					<ul class="numbers clearfix">
+						<li>Bets Won<strong>185</strong></li>
+						<li>Total Bets<strong>344</strong></li>
+						<li class="nobrdr">Ranking<strong>#127</strong></li>
+					</ul>
+				</div>
+			</div>
+			
+			<h1>About Me:</h1>
+			
+			<p>
+			</p>
+			
+			<h1>Hobbies:</h1>
+			
+			<p>
+			</p>
+			
+			<h1>Comment History:</h1>
+			
+			<p>
+			</p>
+		</section>
+		
+		
+		<section id="right">
+			<div class="getcontent">
+				<div class="head"><h1>Achievments</h1></div>
+				<div class="boxy">
+					<p>
+					</p>
+					
+					<div class="AchievmentCount">
+						<a href="#"><img src="img/100_Bets_Won.png" /></a>
+						<a href="#"><img src="img/200_Bets_Won.png" /></a>
+						<a href="#"><img src="img/500_Bets_Won.png" /></a>
+					</div>
+					
+					<span><a href="#">See all…</a></span>
+				</div>
+			</div>
+			
+			<div class="getcontent">
+				<div class="head"><h1>Friends List</h1></div>
+				<div class="boxy">
+					<p>Your have no friends.</p>
+					
+					<div class="friendslist clearfix">
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+						
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+						
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+						
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+						
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+						
+						<div class="friend">
+							<a href="#"><img src="img/friend_avatar_default.jpg" width="30" height="30" alt="?" /></a><span class="friendly"><a href="#"></a></span>
+						</div>
+					</div>
+					
+					<span><a href="#">See all...</a></span>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

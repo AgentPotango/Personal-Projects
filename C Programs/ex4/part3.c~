@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+  char *longestWord;
+  int maxLength = 0;
+  
+  for(int i = 1; i < argc; i++) 
+  {
+    if (strlen(argv[i]) > maxLength)
+    {
+      maxLength = strlen(argv[i]);
+      longestWord = argv[i];
+    }
+  }
+  
+  if (argv[1] == NULL)
+    printf("No Arguments Given");
+  else
+    printf("Longest word is: %s with length %d\n", longestWord,maxLength);
+  return 0;
+}

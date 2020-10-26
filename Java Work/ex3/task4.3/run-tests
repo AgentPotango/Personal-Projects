@@ -1,0 +1,23 @@
+#!/bin/bash
+set -v
+java DegreeCategory 95 
+java DegreeCategory 84.7
+java DegreeCategory 71
+java DegreeCategory 70
+java DegreeCategory 69.5
+java DegreeCategory 69.4
+java DegreeCategory 61.67
+java DegreeCategory 60.03
+java DegreeCategory 59.97
+java DegreeCategory 51.0
+java DegreeCategory 50
+java DegreeCategory 49.7
+java DegreeCategory 41.0
+java DegreeCategory 40
+java DegreeCategory 39.07
+java DegreeCategory 32.5
+java DegreeCategory 32.4
+java DegreeCategory 30
+java DegreeCategory 7
+java DegreeCategory 0
+java DegreeCategory -5

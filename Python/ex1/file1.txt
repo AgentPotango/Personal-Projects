@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+import urllib
+
+url = "http://www.cs.manchester.ac.uk/ugt/2012/COMP18112/page1.html"
+data = urllib.urlopen(url)
+tokens = data.read().split()
+#print tokens

@@ -1,0 +1,696 @@
+\relax 
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Table of Notation\relax }}{6}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:TableOfNotationForMyResearch}{{1}{6}}
+\citation{NyquistWiki}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction to Compressed Sensing}{7}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}The Nyquist-Shannon Sampling \\ Theorem}{7}}
+\citation{NyquistWiki}
+\citation{NyquistWiki}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces The Fourier transform of the bandlimited function $x(t)$ (amplitude against frequency)\cite  {NyquistWiki}\relax }}{8}}
+\newlabel{fig:Fex}{{1.1}{8}}
+\citation{Wikipedia}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}What is Compressed Sensing}{9}}
+\newlabel{eq:UD}{{1.3}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces 6-Sparse 4 by 5 Matrix\relax }}{9}}
+\newlabel{fig:kSparse1}{{1.2}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces The vectors and matrices for $\textbf  {Ax}= \textbf  {b}$\relax }}{10}}
+\newlabel{fig:AxForm}{{1.3}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Simple Compressive Sensing Example}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces A simple example of $\textbf  {Ax} = \textbf  {b}$\relax }}{12}}
+\newlabel{fig:CSex1}{{1.4}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Showing the effect of an inappropriate choice for $\textbf  {A}$ on our output values $\textbf  {b}$ - we lose essential information\relax }}{12}}
+\newlabel{fig:CSex2}{{1.5}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Obtaining 4 output values using Gaussian random variables for our measurement matrix $\textbf  {A}$\relax }}{13}}
+\newlabel{fig:CSex3}{{1.6}{13}}
+\citation{NHS-MRI}
+\citation{HSW-MRI}
+\citation{HSW-MRI}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}How MRI Scans work}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces How an image is formed from an MRI scan\cite  {HSW-MRI}\relax }}{16}}
+\newlabel{fig:MRIScan}{{1.7}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Compressed Sensing in MRI}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces A 3 level decomposition of a "Discrete Wavelet Transform" (DWT) \relax }}{18}}
+\newlabel{fig:3d}{{1.8}{18}}
+\citation{sparseMRI}
+\citation{MRImodel}
+\citation{ICS}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Restricted Isometric Property}{20}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{eqn:RIP}{{2.1}{20}}
+\citation{CST&A}
+\newlabel{eqn:RIP2}{{2.2}{21}}
+\newlabel{eqn:fact1}{{2.3}{21}}
+\newlabel{eqn:fact2}{{2.4}{21}}
+\newlabel{eqn:SG}{{2.5}{21}}
+\citation{CSDon}
+\citation{RBUC}
+\newlabel{eqn:fact3}{{2.6}{22}}
+\citation{delin}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Introduction to Basic Algorithms}{23}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{23}}
+\citation{BookMICS}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Optimization Methods}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Basis Pursuit}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Quadratically Constrained Basis Pursuit}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Least Squares Solution}{25}}
+\newlabel{eqn:l2-1}{{3.5}{25}}
+\newlabel{eqn:l2-2}{{3.6}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of a least squares guess\relax }}{25}}
+\newlabel{fig:L2Tikz}{{3.1}{25}}
+\newlabel{eqn:l2proof}{{3.2.3}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Greedy Methods}{26}}
+\citation{GP}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Orthogonal Matching Pursuit}{27}}
+\newlabel{OMP}{{3.3.1}{27}}
+\citation{STOMP}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Stagewise Orthogonal Matching Pursuit}{28}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces StOMP Algorithm\relax }}{29}}
+\citation{CoSaMP}
+\citation{ROMP1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Compressive Sampling Matching Pursuit}{30}}
+\newlabel{COSAMP}{{3.3.3}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Threshold Methods}{30}}
+\newlabel{eqn:THRESH}{{3.11}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Hard Thresholding Algorithm}{31}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Iterative Hard Thresholding\relax }}{31}}
+\citation{ItThresh}
+\citation{ItThresh}
+\citation{MBCS}
+\citation{TreeSparse}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Model-based Compressed Sensing}{33}}
+\citation{MBCS}
+\newlabel{eqn:SigMod}{{3.20}{34}}
+\newlabel{eqn:MKRIP}{{3.21}{34}}
+\citation{B&D}
+\newlabel{eqn:Mink}{{3.22}{35}}
+\newlabel{eqn:SAA}{{3.23}{35}}
+\newlabel{eqn:MKRIP2}{{3.24}{35}}
+\newlabel{eqn:MKRIP3}{{3.5}{36}}
+\newlabel{eqn:Power}{{3.27}{36}}
+\newlabel{eqn:pnormpower2}{{3.29}{36}}
+\newlabel{eqn:MFrac}{{3.30}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Binary wavelet tree for a one-dimensional signal. The nodes represent the large wavelet coefficients that arise from the discontinuities in smooth piecewise signals. The support of the large coefficients forms a rooted, connected tree. \relax }}{37}}
+\newlabel{fig:ModelTree}{{3.2}{37}}
+\citation{MBCS}
+\citation{MBCS}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Model-Based Algorithm (CoSaMP)}{38}}
+\newlabel{eqn:UB}{{3.31}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces An example of a Model-Based reconstruction and the usual CoSaMP reconstruction. The left-most image is the original image with $n = 128 \times 128$ pixels. The images to the right were recovered taking M = 5000 measurements with the picture in the middle representing the usual CoSaMP reconstruction and the right-most image is the reconstruction attempt using Model-Based recovery(Images taken from: \cite  {MBCS})\relax }}{38}}
+\newlabel{fig:ModelReconstruct}{{3.3}{38}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Model Based CoSaMP\relax }}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}The Criterion for our Algorithms}{40}}
+\newlabel{criterion}{{3.6}{40}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Reconstruction Algorithms}{41}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Goals and Approaches}{41}}
+\newlabel{eqn:sparse}{{4.1}{41}}
+\newlabel{eqn:pnorm}{{4.2}{41}}
+\newlabel{eqn:infnorm}{{4.3}{41}}
+\citation{DS:A&A}
+\citation{GP}
+\citation{BP-Atomic}
+\citation{GP-Orthog}
+\citation{ROMP1}
+\citation{ROMP2}
+\citation{CoSaMP}
+\citation{STOMP}
+\citation{ItThresh}
+\newlabel{eqn:l0}{{4.4}{42}}
+\citation{UPSR}
+\citation{delin}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Basis Pursuit}{43}}
+\newlabel{BP-Intro}{{4.2}{43}}
+\newlabel{eqn:l1}{{4.5}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Here \textbf  {x} is recovered exactly from \textbf  {Ax = b} via $\ell _{1}$-minimization and \textbf  {z = x}\relax }}{43}}
+\newlabel{fig:L1Tik}{{4.1}{43}}
+\citation{delin}
+\citation{SSR}
+\citation{SSR}
+\newlabel{eqn:ESR}{{4.6}{44}}
+\newlabel{eqn:l1Quad}{{4.7}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces An illustration of the reconstruction of a sparse signal \textbf  {x} approximately from noisy data (\textbf  {b} = \textbf  {Ax} + \pmb  {$\eta $}) where \pmb  {$\eta $} is assumed to have a norm less than some error E.\relax }}{45}}
+\newlabel{fig:L1NoiseTik}{{4.2}{45}}
+\newlabel{eqn:NSRB}{{4.8}{45}}
+\citation{SSR}
+\newlabel{eqn:SBP-Cond}{{4.9}{46}}
+\newlabel{eqn:SBP2}{{4.10}{46}}
+\citation{L1Magic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Algorithm}{47}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces Basis Pursuit via Dual Point Algorithm\relax }}{47}}
+\citation{L1Magic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}1D Signal - Basis Pursuit}{48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces The plot of the (N = 256) original signal \textbf  {x} with 20 peaks\relax }}{49}}
+\newlabel{fig:1DO}{{4.3}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces The plot of the (M = 64) signal generated by \textbf  {Ax}\relax }}{49}}
+\newlabel{fig:1DK}{{4.4}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The plot of the (N = 256) signal reconstructed via $\ell _1$-minimization\relax }}{50}}
+\newlabel{fig:1DR}{{4.5}{50}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}1D Signal - Basis Pursuit and Noisy Signals}{51}}
+\newlabel{eqn:l1Quad2}{{4.13}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces The plot of the (N = 1024) original signal \textbf  {x}\relax }}{51}}
+\newlabel{fig:1DONoise}{{4.6}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces The plot of the Discrete Cosine Transform (DCT) coefficients for the (N = 1024) original signal. Notice how the majority of the coefficients are approximately 0. \relax }}{52}}
+\newlabel{fig:1DONoiseF}{{4.7}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces The plot of the (M = 200) signal generated by $\textbf  {A*x} +\pmb  {\eta }$ where $\pmb  {\eta }$ is some error vector. \relax }}{52}}
+\newlabel{fig:1DKValsNoise}{{4.8}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces The reconstructed signal (N = 1024) from (M = 200) the output vector $\textbf  {Ax} +\pmb  {\eta }$ where $\pmb  {\eta }$ is some error vector\relax }}{53}}
+\newlabel{fig:1DRNoise}{{4.9}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces The plot of the Discrete Cosine Transform (DCT) coefficients for the (N = 1024) reconstructed signal.\relax }}{53}}
+\newlabel{fig:1DRNoiseF}{{4.10}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces The reconstruction of the original signal (N = 1024) using 200 measurements\relax }}{54}}
+\newlabel{fig:1DRNoise200}{{4.11}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces The reconstruction of the original signal (N = 1024) using 400 measurements\relax }}{54}}
+\newlabel{fig:1DRNoise400}{{4.12}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces The reconstruction of the original signal (N = 1024) using 600 measurements\relax }}{55}}
+\newlabel{fig:1DRNoise600}{{4.13}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces The reconstruction of the original signal (N = 1024) using 800 measurements\relax }}{55}}
+\newlabel{fig:1DRNoise800}{{4.14}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces The reconstruction of the original signal (N = 1024) using 1000 measurements\relax }}{56}}
+\newlabel{fig:1DRNoise1000}{{4.15}{56}}
+\citation{L1Magic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}1D Signal - Basis Pursuit Numerical Results}{57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Plot of how PSNR values change for a N = 256 dimensional signal with increasing samples (1 to 100 in steps of 1) and 6 levels of sparsity (5 to 30 in steps of 5). The output is the average of 100 trials that were run for each combination of the number of samples and sparsity.\relax }}{58}}
+\newlabel{fig:1DSNR}{{4.16}{58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Plot of how the 2-norm error values change for a N = 256 dimensional signal with increasing samples (1 to 100 in steps of 1) and 6 levels of sparsity (5 to 30 in steps of 5). The output is the average of 100 trials that were run for each combination of the number of samples and sparsity. Code for graph generation is available in Appendix\nobreakspace  {}H\hbox {}\relax }}{59}}
+\newlabel{fig:1DError}{{4.17}{59}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Plot of how the percentage of signals correctly recovered change for a N = 256 dimensional signal with increasing samples (1 to 100 in steps of 1) and 6 levels of sparsity (5 to 30 in steps of 5). The output is the average of 100 trials that were run for each combination of the number of samples and sparsity. Code for graph generation is available in Appendix\nobreakspace  {}H\hbox {}\relax }}{60}}
+\newlabel{fig:1DCorrect}{{4.18}{60}}
+\citation{Brain1}
+\citation{Brain1}
+\citation{Brain2}
+\citation{Brain2}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}MRI Images - Experiments}{61}}
+\newlabel{fig:Brain1}{{4.19a}{61}}
+\newlabel{sub@fig:Brain1}{{a}{61}}
+\newlabel{fig:Brain2}{{4.19b}{61}}
+\newlabel{sub@fig:Brain2}{{b}{61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces I will be using the following MRI scans to test the CS algorithms.\relax }}{61}}
+\newlabel{fig:MRIImages}{{4.19}{61}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Basis Pursuit - Experiments}{61}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Brain 1 - Image Reconstruction}{61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces DCT: Image K = 10\%\relax }}{62}}
+\newlabel{fig:BP-Brain1-Original-DCT}{{4.20}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces FFT: Image K = 10\%\relax }}{62}}
+\newlabel{fig:BP-Brain1-Original-FFT}{{4.21}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces DWT: Image K = 10\%\relax }}{62}}
+\newlabel{fig:BP-Brain1-Original-DWT}{{4.22}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces DCT: Image M = K = 640\relax }}{62}}
+\newlabel{fig:BP-Brain1-640-DCT}{{4.23}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces FFT: Image M = K = 640\relax }}{62}}
+\newlabel{fig:BP-Brain1-640-FFT}{{4.24}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces DWT: Image M = K = 640\relax }}{62}}
+\newlabel{fig:BP-Brain1-640-DWT}{{4.25}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces DCT: Image M = 1.5K = 960\relax }}{62}}
+\newlabel{fig:BP-Brain1-960-DCT}{{4.26}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.27}{\ignorespaces FFT: Image M = 1.5K = 960\relax }}{62}}
+\newlabel{fig:BP-Brain1-960-FFT}{{4.27}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.28}{\ignorespaces DWT: Image M = 1.5K = 960\relax }}{62}}
+\newlabel{fig:BP-Brain1-960-DWT}{{4.28}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.29}{\ignorespaces DCT: Image M = 2K = 1280\relax }}{63}}
+\newlabel{fig:BP-Brain1-1280-DCT}{{4.29}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.30}{\ignorespaces FFT: Image M = 2K = 1280\relax }}{63}}
+\newlabel{fig:BP-Brain1-1280-FFT}{{4.30}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.31}{\ignorespaces DWT: Image M = 2K = 1280\relax }}{63}}
+\newlabel{fig:BP-Brain1-1280-DWT}{{4.31}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.32}{\ignorespaces DCT: Image M = 2.5K = 1600\relax }}{63}}
+\newlabel{fig:BP-Brain1-1600-DCT}{{4.32}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.33}{\ignorespaces FFT: Image M = 2.5K = 1600\relax }}{63}}
+\newlabel{fig:BP-Brain1-1600-FFT}{{4.33}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.34}{\ignorespaces DWT: Image M = 2.K = 1600\relax }}{63}}
+\newlabel{fig:BP-Brain1-1600-DWT}{{4.34}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.35}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{63}}
+\newlabel{fig:BP-Brain1-1920-DCT}{{4.35}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.36}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{63}}
+\newlabel{fig:BP-Brain1-1920-FFT}{{4.36}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.37}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{63}}
+\newlabel{fig:BP-Brain1-1920-DWT}{{4.37}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.38}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{64}}
+\newlabel{fig:BP-Brain1-2240-DCT}{{4.38}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.39}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{64}}
+\newlabel{fig:BP-Brain1-2240-FFT}{{4.39}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.40}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{64}}
+\newlabel{fig:BP-Brain1-2240-DWT}{{4.40}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.41}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{64}}
+\newlabel{fig:BP-Brain1-2560-DCT}{{4.41}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.42}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{64}}
+\newlabel{fig:BP-Brain1-2560-FFT}{{4.42}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.43}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{64}}
+\newlabel{fig:BP-Brain1-2560-DWT}{{4.43}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.44}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{64}}
+\newlabel{fig:BP-Brain1-2880-DCT}{{4.44}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.45}{\ignorespaces FFT: Image M = 4.5K = 2880\relax }}{64}}
+\newlabel{fig:BP-Brain1-2880-FFT}{{4.45}{64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.46}{\ignorespaces DWT: Image M = 4.5K = 2880\relax }}{64}}
+\newlabel{fig:BP-Brain1-2880-DWT}{{4.46}{64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Brain 1 Image - Analysis}{65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.47}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 1.\relax }}{65}}
+\newlabel{fig:BP-MRI-PSNR-Brain1}{{4.47}{65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.48}{\ignorespaces Plot of how the error values change for an increasing number of measurements for Brain 1.\relax }}{66}}
+\newlabel{fig:BP-MRI-Error-Brain1}{{4.48}{66}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.49}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 1.\relax }}{66}}
+\newlabel{fig:BP-MRI-Time-Brain1}{{4.49}{66}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Brain 2 - Image Reconstruction}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.50}{\ignorespaces DCT: Image K = 10\%\relax }}{67}}
+\newlabel{fig:BP-Brain2-Original-DCT}{{4.50}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.51}{\ignorespaces FFT: Image K = 10\%\relax }}{67}}
+\newlabel{fig:BP-Brain2-Original-FFT}{{4.51}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.52}{\ignorespaces DWT: Image K = 10\%\relax }}{67}}
+\newlabel{fig:BP-Brain2-Original-DWT}{{4.52}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.53}{\ignorespaces DCT: Image M = K = 640\relax }}{67}}
+\newlabel{fig:BP-Brain2-640-DCT}{{4.53}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.54}{\ignorespaces FFT: Image M = K = 640\relax }}{67}}
+\newlabel{fig:BP-Brain2-640-FFT}{{4.54}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.55}{\ignorespaces DWT: Image M = K = 640\relax }}{67}}
+\newlabel{fig:BP-Brain2-640-DWT}{{4.55}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.56}{\ignorespaces DCT: Image M = 1.5K = 960\relax }}{67}}
+\newlabel{fig:BP-Brain2-960-DCT}{{4.56}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.57}{\ignorespaces FFT: Image M = 1.5K = 960\relax }}{67}}
+\newlabel{fig:BP-Brain2-960-FFT}{{4.57}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.58}{\ignorespaces DWT: Image M = 1.5K = 960\relax }}{67}}
+\newlabel{fig:BP-Brain2-960-DWT}{{4.58}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.59}{\ignorespaces DCT: Image M = 2K = 1280\relax }}{68}}
+\newlabel{fig:BP-Brain2-1280-DCT}{{4.59}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.60}{\ignorespaces FFT: Image M = 2K = 1280\relax }}{68}}
+\newlabel{fig:BP-Brain2-1280-FFT}{{4.60}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.61}{\ignorespaces DWT: Image M = 2K = 1280\relax }}{68}}
+\newlabel{fig:BP-Brain2-1280-DWT}{{4.61}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.62}{\ignorespaces DCT: Image M = 2.5K = 1600\relax }}{68}}
+\newlabel{fig:BP-Brain2-1600-DCT}{{4.62}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.63}{\ignorespaces FFT: Image M = 2.5K = 1600\relax }}{68}}
+\newlabel{fig:BP-Brain2-1600-FFT}{{4.63}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.64}{\ignorespaces DWT: Image M = 2.K = 1600\relax }}{68}}
+\newlabel{fig:BP-Brain2-1600-DWT}{{4.64}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.65}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{68}}
+\newlabel{fig:BP-Brain2-1920-DCT}{{4.65}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.66}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{68}}
+\newlabel{fig:BP-Brain2-1920-FFT}{{4.66}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.67}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{68}}
+\newlabel{fig:BP-Brain2-1920-DWT}{{4.67}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.68}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{69}}
+\newlabel{fig:BP-Brain2-2240-DCT}{{4.68}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.69}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{69}}
+\newlabel{fig:BP-Brain2-2240-FFT}{{4.69}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.70}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{69}}
+\newlabel{fig:BP-Brain2-2240-DWT}{{4.70}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.71}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{69}}
+\newlabel{fig:BP-Brain2-2560-DCT}{{4.71}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.72}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{69}}
+\newlabel{fig:BP-Brain2-2560-FFT}{{4.72}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.73}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{69}}
+\newlabel{fig:BP-Brain2-2560-DWT}{{4.73}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.74}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{69}}
+\newlabel{fig:BP-Brain2-2880-DCT}{{4.74}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.75}{\ignorespaces FFT: Image M = 4.5K = 2880\relax }}{69}}
+\newlabel{fig:BP-Brain2-2880-FFT}{{4.75}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.76}{\ignorespaces DWT: Image M = 4.5K = 2880\relax }}{69}}
+\newlabel{fig:BP-Brain2-2880-DWT}{{4.76}{69}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Brain 2 Image - Analysis}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.77}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 2.\relax }}{70}}
+\newlabel{fig:BP-MRI-PSNR-Brain2}{{4.77}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.78}{\ignorespaces Plot of how the error values change for an increasing number of measurements for Brain 2.\relax }}{71}}
+\newlabel{fig:BP-MRI-Error-Brain2}{{4.78}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.79}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 2.\relax }}{71}}
+\newlabel{fig:BP-MRI-Time-Brain2}{{4.79}{71}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Conclusion}{72}}
+\citation{GP-Orthog}
+\citation{GP-Orthog}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Orthogonal Matching Pursuit}{73}}
+\newlabel{SROMPTH}{{4.6}{73}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Algorithm}{74}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces OMP Algorithm\relax }}{74}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}1D Signal - OMP}{75}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.80}{\ignorespaces The original (N = 256) symbol generated\relax }}{75}}
+\newlabel{fig:OMPSig50}{{4.80}{75}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.81}{\ignorespaces The output generated from the original signal when sampled at 20 points using a Gaussian measurement matrix \textbf  {A} \relax }}{76}}
+\newlabel{fig:OMPSig50KVal}{{4.81}{76}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.82}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 50 samples\relax }}{76}}
+\newlabel{fig:OMPSig50R}{{4.82}{76}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.83}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 100 samples\relax }}{77}}
+\newlabel{fig:OMPSig100R}{{4.83}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.84}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 150 samples\relax }}{77}}
+\newlabel{fig:OMPSig150R}{{4.84}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.85}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 200 samples\relax }}{78}}
+\newlabel{fig:OMPSig200R}{{4.85}{78}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.3}1D Signal - OMP Numerical Results}{79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.86}{\ignorespaces A graph detailing the change in PSNR for signals obtained from OMP with respect to sample size and sparsity\relax }}{79}}
+\newlabel{fig:OMPSigSNR}{{4.86}{79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.87}{\ignorespaces A graph detailing the change in 2-Norm error for signals obtained from OMP with respect to sample size and sparsity\relax }}{80}}
+\newlabel{fig:OMPSigError}{{4.87}{80}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.88}{\ignorespaces A graph detailing the percent of signals correctly reconstructed for signals obtained from OMP with respect to sample size and sparsity\relax }}{81}}
+\newlabel{fig:OMPSigCorrect}{{4.88}{81}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}OMP - Experiments}{82}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Brain 1 - Image Reconstruction}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.89}{\ignorespaces DCT: Image K = 10\%\relax }}{82}}
+\newlabel{fig:OMP-Brain1-Original-DCT}{{4.89}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.90}{\ignorespaces FFT: Image K = 10\%\relax }}{82}}
+\newlabel{fig:OMP-Brain1-Original-FFT}{{4.90}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.91}{\ignorespaces DWT: Image K = 10\%\relax }}{82}}
+\newlabel{fig:OMP-Brain1-Original-DWT}{{4.91}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.92}{\ignorespaces DCT: Image M = K = 640\relax }}{82}}
+\newlabel{fig:OMP-Brain1-640-DCT}{{4.92}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.93}{\ignorespaces FFT: Image M = K = 640\relax }}{82}}
+\newlabel{fig:OMP-Brain1-640-FFT}{{4.93}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.94}{\ignorespaces DWT: Image M = K = 640\relax }}{82}}
+\newlabel{fig:OMP-Brain1-640-DWT}{{4.94}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.95}{\ignorespaces DCT: Image M = 1.5K = 960\relax }}{82}}
+\newlabel{fig:OMP-Brain1-960-DCT}{{4.95}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.96}{\ignorespaces FFT: Image M = 1.5K = 960\relax }}{82}}
+\newlabel{fig:OMP-Brain1-960-FFT}{{4.96}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.97}{\ignorespaces DWT: Image M = 1.5K = 960\relax }}{82}}
+\newlabel{fig:OMP-Brain1-960-DWT}{{4.97}{82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.98}{\ignorespaces DCT: Image M = 2K = 1280\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1280-DCT}{{4.98}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.99}{\ignorespaces FFT: Image M = 2K = 1280\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1280-FFT}{{4.99}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.100}{\ignorespaces DWT: Image M = 2K = 1280\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1280-DWT}{{4.100}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.101}{\ignorespaces DCT: Image M = 2.5K = 1600\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1600-DCT}{{4.101}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.102}{\ignorespaces FFT: Image M = 2.5K = 1600\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1600-FFT}{{4.102}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.103}{\ignorespaces DWT: Image M = 2.K = 1600\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1600-DWT}{{4.103}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.104}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1920-DCT}{{4.104}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.105}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1920-FFT}{{4.105}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.106}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{83}}
+\newlabel{fig:OMP-Brain1-1920-DWT}{{4.106}{83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.107}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2240-DCT}{{4.107}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.108}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2240-FFT}{{4.108}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.109}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2240-DWT}{{4.109}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.110}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2560-DCT}{{4.110}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.111}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2560-FFT}{{4.111}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.112}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2560-DWT}{{4.112}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.113}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2880-DCT}{{4.113}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.114}{\ignorespaces FFT: Image M = 4.5K = 2880\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2880-FFT}{{4.114}{84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.115}{\ignorespaces DWT: Image M = 4.5K = 2880\relax }}{84}}
+\newlabel{fig:OMP-Brain1-2880-DWT}{{4.115}{84}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.2}Brain 1 Image - Analysis}{85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.116}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 1.\relax }}{85}}
+\newlabel{fig:OMP-MRI-PSNR-Brain1}{{4.116}{85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.117}{\ignorespaces Plot of how the error valueschange for an increasing number of measurements for Brain 1.\relax }}{86}}
+\newlabel{fig:OMP-MRI-Error-Brain1}{{4.117}{86}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.118}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 1.\relax }}{86}}
+\newlabel{fig:OMP-MRI-Time-Brain1}{{4.118}{86}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.3}Brain 2 - Image Reconstruction}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.119}{\ignorespaces DCT: Image K = 10\%\relax }}{87}}
+\newlabel{fig:OMP-Brain2-Original-DCT}{{4.119}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.120}{\ignorespaces FFT: Image K = 10\%\relax }}{87}}
+\newlabel{fig:OMP-Brain2-Original-FFT}{{4.120}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.121}{\ignorespaces DWT: Image K = 10\%\relax }}{87}}
+\newlabel{fig:OMP-Brain2-Original-DWT}{{4.121}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.122}{\ignorespaces DCT: Image M = K = 640\relax }}{87}}
+\newlabel{fig:OMP-Brain2-640-DCT}{{4.122}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.123}{\ignorespaces FFT: Image M = K = 640\relax }}{87}}
+\newlabel{fig:OMP-Brain2-640-FFT}{{4.123}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.124}{\ignorespaces DWT: Image M = K = 640\relax }}{87}}
+\newlabel{fig:OMP-Brain2-640-DWT}{{4.124}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.125}{\ignorespaces DCT: Image M = 1.5K = 960\relax }}{87}}
+\newlabel{fig:OMP-Brain2-960-DCT}{{4.125}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.126}{\ignorespaces FFT: Image M = 1.5K = 960\relax }}{87}}
+\newlabel{fig:OMP-Brain2-960-FFT}{{4.126}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.127}{\ignorespaces DWT: Image M = 1.5K = 960\relax }}{87}}
+\newlabel{fig:OMP-Brain2-960-DWT}{{4.127}{87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.128}{\ignorespaces DCT: Image M = 2K = 1280\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1280-DCT}{{4.128}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.129}{\ignorespaces FFT: Image M = 2K = 1280\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1280-FFT}{{4.129}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.130}{\ignorespaces DWT: Image M = 2K = 1280\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1280-DWT}{{4.130}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.131}{\ignorespaces DCT: Image M = 2.5K = 1600\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1600-DCT}{{4.131}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.132}{\ignorespaces FFT: Image M = 2.5K = 1600\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1600-FFT}{{4.132}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.133}{\ignorespaces DWT: Image M = 2.K = 1600\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1600-DWT}{{4.133}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.134}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1920-DCT}{{4.134}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.135}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1920-FFT}{{4.135}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.136}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{88}}
+\newlabel{fig:OMP-Brain2-1920-DWT}{{4.136}{88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.137}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2240-DCT}{{4.137}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.138}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2240-FFT}{{4.138}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.139}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2240-DWT}{{4.139}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.140}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2560-DCT}{{4.140}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.141}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2560-FFT}{{4.141}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.142}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2560-DWT}{{4.142}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.143}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2880-DCT}{{4.143}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.144}{\ignorespaces FFT: Image M = 4.5K = 2880\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2880-FFT}{{4.144}{89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.145}{\ignorespaces DWT: Image M = 4.5K = 2880\relax }}{89}}
+\newlabel{fig:OMP-Brain2-2880-DWT}{{4.145}{89}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.4}Brain 2 Image - Analysis}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.146}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 2.\relax }}{90}}
+\newlabel{fig:OMP-MRI-PSNR-Brain2}{{4.146}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.147}{\ignorespaces A closer look at the above plot\relax }}{90}}
+\newlabel{fig:OMP-MRI-PSNR-Brain2-2}{{4.147}{90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.148}{\ignorespaces Plot of how the error values change for an increasing number of measurements for Brain 2.\relax }}{91}}
+\newlabel{fig:OMP-MRI-Error-Brain2}{{4.148}{91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.149}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 2.\relax }}{91}}
+\newlabel{fig:OMP-MRI-Time-Brain2}{{4.149}{91}}
+\citation{GP-Orthog}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}Conclusion}{92}}
+\citation{CoSaMP}
+\citation{CoSaMP}
+\@writefile{toc}{\contentsline {section}{\numberline {4.9}Compressive Sampling Matching Pursuit}{93}}
+\newlabel{SRCOSAMP}{{4.9}{93}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9.1}Algorithm}{94}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6}{\ignorespaces CoSaMP Algorithm\relax }}{94}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9.2}1D Signal - CoSaMP}{95}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.150}{\ignorespaces The original (N = 256) symbol generated\relax }}{95}}
+\newlabel{fig:COSAMPOSignal50}{{4.150}{95}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.151}{\ignorespaces The output generated from the original signal when sampled at 50 points using a Gaussian measurement matrix \textbf  {A} \relax }}{96}}
+\newlabel{fig:COSAMPKVals50}{{4.151}{96}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.152}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 50 samples\relax }}{96}}
+\newlabel{fig:COSAMPRSignal50}{{4.152}{96}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.153}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 100 samples\relax }}{97}}
+\newlabel{fig:COSAMPRSignal100}{{4.153}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.154}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 150 samples\relax }}{97}}
+\newlabel{fig:COSAMPRSignal150}{{4.154}{97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.155}{\ignorespaces The reconstruction of the original signal \textbf  {x} using 200 samples\relax }}{98}}
+\newlabel{fig:COSAMPRSignal200}{{4.155}{98}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9.3}1D Signal - CoSaMP Numerical Results}{99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.156}{\ignorespaces A graph detailing the change in PSNR for signals obtained from CoSaMP with respect to sample size and sparsity\relax }}{99}}
+\newlabel{fig:psnrCOSAMP}{{4.156}{99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.157}{\ignorespaces A graph detailing the percent of signals correctly reconstructed for signals obtained from CoSaMP with respect to sample size and sparsity\relax }}{100}}
+\newlabel{fig:errorCOSAMP}{{4.157}{100}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.158}{\ignorespaces A graph detailing the percent of signals correctly reconstructed for signals obtained from CoSaMP with respect to sample size and sparsity\relax }}{101}}
+\newlabel{fig:correctCOSAMP}{{4.158}{101}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.10}CoSaMP - Experiments}{102}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.1}Brain 1 - Image Reconstruction}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.159}{\ignorespaces DCT: Image K = 10\%\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-Original-DCT}{{4.159}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.160}{\ignorespaces FFT: Image K = 10\%\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-Original-FFT}{{4.160}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.161}{\ignorespaces DWT: Image K = 10\%\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-Original-DWT}{{4.161}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.162}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-1920-DCT}{{4.162}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.163}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-1920-FFT}{{4.163}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.164}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-1920-DWT}{{4.164}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.165}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-2240-DCT}{{4.165}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.166}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-2240-FFT}{{4.166}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.167}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{102}}
+\newlabel{fig:COSAMP-Brain1-2240-DWT}{{4.167}{102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.168}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2560-DCT}{{4.168}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.169}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2560-FFT}{{4.169}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.170}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2560-DWT}{{4.170}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.171}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2880-DCT}{{4.171}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.172}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2880-FFT}{{4.172}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.173}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-2880-DWT}{{4.173}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.174}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-3200-DCT}{{4.174}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.175}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-3200-FFT}{{4.175}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.176}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{103}}
+\newlabel{fig:COSAMP-Brain1-3200-DWT}{{4.176}{103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.177}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3520-DCT}{{4.177}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.178}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3520-FFT}{{4.178}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.179}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3520-DWT}{{4.179}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.180}{\ignorespaces DCT: Image M = 6K = 3840\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3840-DCT}{{4.180}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.181}{\ignorespaces FFT: Image M = 6K = 3840\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3840-FFT}{{4.181}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.182}{\ignorespaces DWT: Image M = 6K = 3840\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-3840-DWT}{{4.182}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.183}{\ignorespaces DCT: Image M = 6.5K = 4160\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-4160-DCT}{{4.183}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.184}{\ignorespaces FFT: Image M = 6.5K = 4160\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-4160-FFT}{{4.184}{104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.185}{\ignorespaces DWT: Image M = 6.5K = 4160\relax }}{104}}
+\newlabel{fig:COSAMP-Brain1-4160-DWT}{{4.185}{104}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.2}Brain 1 Image - Analysis}{105}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.186}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 1.\relax }}{105}}
+\newlabel{fig:COSAMP-MRI-PSNR-Brain1}{{4.186}{105}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.187}{\ignorespaces Plot of how the error values change for an increasing number of measurements for Brain 1.\relax }}{106}}
+\newlabel{fig:COSAMP-MRI-Error-Brain1}{{4.187}{106}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.188}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 1.\relax }}{107}}
+\newlabel{fig:COSAMP-MRI-Time-Brain1}{{4.188}{107}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.3}Brain 2 - Image Reconstruction}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.189}{\ignorespaces DCT: Image K = 10\%\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-Original-DCT}{{4.189}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.190}{\ignorespaces FFT: Image K = 10\%\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-Original-FFT}{{4.190}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.191}{\ignorespaces DWT: Image K = 10\%\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-Original-DWT}{{4.191}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.192}{\ignorespaces DCT: Image M = 3K = 1920\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-1920-DCT}{{4.192}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.193}{\ignorespaces FFT: Image M = 3K = 1920\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-1920-FFT}{{4.193}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.194}{\ignorespaces DWT: Image M = 3K = 1920\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-1920-DWT}{{4.194}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.195}{\ignorespaces DCT: Image M = 3.5K = 2240\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-2240-DCT}{{4.195}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.196}{\ignorespaces FFT: Image M = 3.5K = 2240\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-2240-FFT}{{4.196}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.197}{\ignorespaces DWT: Image M = 3.5K = 2240\relax }}{108}}
+\newlabel{fig:COSAMP-Brain2-2240-DWT}{{4.197}{108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.198}{\ignorespaces DCT: Image M = 4K = 2240\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2560-DCT}{{4.198}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.199}{\ignorespaces FFT: Image M = 4K = 2560\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2560-FFT}{{4.199}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.200}{\ignorespaces DWT: Image M = 4K = 2560\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2560-DWT}{{4.200}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.201}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2880-DCT}{{4.201}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.202}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2880-FFT}{{4.202}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.203}{\ignorespaces DCT: Image M = 4.5K = 2880\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-2880-DWT}{{4.203}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.204}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-3200-DCT}{{4.204}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.205}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-3200-FFT}{{4.205}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.206}{\ignorespaces DCT: Image M = 5K = 3200\relax }}{109}}
+\newlabel{fig:COSAMP-Brain2-3200-DWT}{{4.206}{109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.207}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3520-DCT}{{4.207}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.208}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3520-FFT}{{4.208}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.209}{\ignorespaces DCT: Image M = 5.5K = 3520\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3520-DWT}{{4.209}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.210}{\ignorespaces DCT: Image M = 6K = 3840\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3840-DCT}{{4.210}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.211}{\ignorespaces FFT: Image M = 6K = 3840\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3840-FFT}{{4.211}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.212}{\ignorespaces DWT: Image M = 6K = 3840\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-3840-DWT}{{4.212}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.213}{\ignorespaces DCT: Image M = 6.5K = 4160\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-4160-DCT}{{4.213}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.214}{\ignorespaces FFT: Image M = 6.5K = 4160\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-4160-FFT}{{4.214}{110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.215}{\ignorespaces DWT: Image M = 6.5K = 4160\relax }}{110}}
+\newlabel{fig:COSAMP-Brain2-4160-DWT}{{4.215}{110}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10.4}Brain 2 Image - Analysis}{111}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.216}{\ignorespaces Plot of how the PSNR values change for an increasing number of measurements for Brain 2.\relax }}{111}}
+\newlabel{fig:COSAMP-MRI-PSNR-Brain2}{{4.216}{111}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.217}{\ignorespaces Plot of how the error values change for an increasing number of measurements for Brain 2.\relax }}{112}}
+\newlabel{fig:COSAMP-MRI-Error-Brain2}{{4.217}{112}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.218}{\ignorespaces Plot of how the time to generate the results change for an increasing number of measurements for Brain 2.\relax }}{112}}
+\newlabel{fig:COSAMP-MRI-Time-Brain2}{{4.218}{112}}
+\citation{CoSaMP}
+\@writefile{toc}{\contentsline {section}{\numberline {4.11}Conclusion}{113}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusion}{114}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{Appendices}{116}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}BP - Algorithm}{117}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lst:ex1D}{{A}{117}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}BP - Noisy}{121}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lst:ex1DNoise}{{B}{121}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}BP - MRI Images}{126}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lst:ex1DMRI}{{C}{126}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D}OMP - Algorithm}{132}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\numberline {E}OMP - MRI Images}{137}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\numberline {F}CoSaMP - Algorithm}{144}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\numberline {G}CoSaMP - MRI Images}{149}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {chapter}{\numberline {H}Graphs for 1D Signals}{156}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lst:ex1DGraphs}{{H}{156}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {I}Graphs for MRI Images}{160}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\bibstyle{plain}
+\bibdata{mybib}
+\@writefile{toc}{\contentsline {chapter}{References}{163}}
+\bibcite{BookMICS}{1}
+\bibcite{TreeSparse}{2}
+\bibcite{ItThresh}{3}
+\bibcite{B&D}{4}
+\bibcite{L1Magic}{5}
+\bibcite{delin}{6}
+\bibcite{ICS}{7}
+\bibcite{STOMP}{8}
+\bibcite{CoSaMP}{9}
+\bibcite{CSDon}{10}
+\bibcite{UPSR}{11}
+\bibcite{RBUC}{12}
+\bibcite{SSR}{13}
+\bibcite{HSW-MRI}{14}
+\bibcite{Brain2}{15}
+\bibcite{sparseMRI}{16}
+\bibcite{DS:A&A}{17}
+\bibcite{ROMP2}{18}
+\bibcite{ROMP1}{19}
+\bibcite{NHS-MRI}{20}
+\bibcite{Brain1}{21}
+\bibcite{MBCS}{22}
+\bibcite{BP-Atomic}{23}
+\bibcite{GP}{24}
+\bibcite{GP-Orthog}{25}
+\bibcite{Wikipedia}{26}
+\bibcite{NyquistWiki}{27}
+\bibcite{CST&A}{28}
+\bibcite{MRImodel}{29}

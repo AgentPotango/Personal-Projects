@@ -1,0 +1,11 @@
+#!/bin/bash
+set -v
+java FieldPerimeter 5 10
+java FieldPerimeter 10 5
+java FieldPerimeter 0 0
+java FieldPerimeter 4 4
+java FieldPerimeter 3.0 4.0
+java FieldPerimeter apples
+java FieldPerimeter -5 4
+java FieldPerimeter 4
+

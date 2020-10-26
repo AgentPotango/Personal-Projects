@@ -1,0 +1,24 @@
+def onStart(self):
+		self.users = []
+		self.clients = 0
+		print "Echo server has started"
+		
+def onMessage(self, socket, message):
+		# split up the message from a space
+		(command, sep, parameter) = message.strip().partition(' ')
+
+if command == 'register':
+  socket.username = parameter
+  self.users.append(parameter)
+
+ if command == 'msgall':
+   print socket.username + ": " + parameter
+   
+   def onConnect(self, socket):
+		self.clients +=1
+		socket.username = "none"
+		print "A User has connected: There are now" \
+		      + " " + str(self.clients) + " clients connected"
+		      
+   def onDisconnect(self, socket):
+		self.clients -=1	 

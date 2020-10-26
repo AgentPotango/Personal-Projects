@@ -1,0 +1,33 @@
+#!/bin/bash
+
+java ReverseLines < reverseThis > reversedFile 
+less reversedFile
+
+echo '';
+echo '------------------------------------------';
+echo 'Normal File:'
+echo '------------------------------------------';
+echo '';
+
+java ReverseLines < reversedFile > normalFile
+less normalFile
+
+echo '';
+echo '------------------------------------------';
+echo '2nd Test:'
+echo '------------------------------------------';
+echo '';
+
+
+java ReverseLines < ReverseLines.java > reverse 
+less reverse
+
+echo '';
+echo '------------------------------------------';
+echo 'Normal File:'
+echo '------------------------------------------';
+echo '';
+
+java ReverseLines < reverse > normal
+less normal
+

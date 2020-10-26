@@ -1,0 +1,260 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#define __USE_BSD
+#include <string.h>
+
+#include "speller.h"
+#include "dict.h"
+
+typedef struct node * tree_ptr;
+struct node {
+  Key_Type element; // only data is the key itself
+  tree_ptr left, right;
+  // add anything else that you need
+};
+
+struct table {
+  tree_ptr head; // points to the head of the tree
+  // add anything else that you need
+};
+
+Table initialize_table(/*ignore parameter*/) {
+
+	//Allocates memory for a new table
+	Table newTable = malloc(sizeof *newTable);
+	
+	//Sets the Table's head to NULL (i.e. Points to the beginning of the Tree) 
+	newTable->head = NULL;
+	return newTable;
+
+}
+
+Table insertOBT(Key_Type element,Table tree) {
+	tree_ptr parentNode;
+	tree_ptr nextNode;
+	tree_ptr currentNode;
+	tree_ptr newNode;
+	
+	int compare;
+	//0 is left hand side, 1 is right hand side
+	int side;
+	
+	//Make sure values are not NULL
+	if (element == NULL || tree == NULL)
+		return NULL;
+	
+	/*Initialize parentNode to be Null and set currentNode to be the beginning
+		of the tree. Loop until the currentNode has an element inserted into it.
+		Then, set the parentNode to be the currentNode and set the next currentNode
+		to become the nextNode to have an element inserted into it.
+	*/
+	for (parentNode = NULL, currentNode = tree->head; currentNode != NULL;
+			parentNode = currentNode, currentNode = nextNode)
+		{
+			
+			//Check if elements are the same
+			compare = strcmp(element, currentNode->element);
+			
+			if (compare == 0)
+			{
+				//Elements are the same so do nothing
+				printf("This element has already been added to the tree: %s\n", 
+								currentNode->element);
+				return tree;
+			}
+			else if (compare < 0)
+			{
+				//less than
+			  nextNode = currentNode->left;
+			  side = 0;
+			}
+			else
+			{
+				//greater than
+			  nextNode = currentNode->right;
+			  side = 1;
+			}
+		}
+		
+		//Initialize memory for new node and duplicate the element
+  	newNode = malloc(sizeof *newNode);
+  	//use strdup to copy the element before saving it into the tree
+  	newNode->element = strdup(element);
+  	//strcpy(element, newNode->element);
+ 		newNode->left = NULL;
+  	newNode->right = NULL;
+  	
+  	//Places the node in the right place
+ 		if (tree->head==NULL)
+  	{
+  		//Head of tree is current Null 
+    	tree->head = newNode;
+    	printf("First element added %s\n",newNode->element);
+  	}
+  	else if (side == 0)
+  	{
+  		//Insert node to left side of tree
+    	parentNode->left = newNode;
+    	printf("New element added to the left: %s of Parent node:%s\n",
+    				newNode->element, parentNode->element);
+  	}
+  	else if (side == 1)
+  	{
+  		//Insert Node to the right side of the tree
+    	parentNode->right = newNode;
+   	  printf("New element added to the right: %s of Parent node:%s\n",
+   	  		  newNode->element, parentNode->element);
+  	}
+  	return tree;
+			  
+
+}
+
+Table insert(Key_Type element, Table tree)
+{
+	
+	//Make sure values are not NULL
+  if (element == NULL || tree == NULL)
+    return FALSE;	
+	
+  switch(mode)
+  {
+    case 1: 
+      tree = insertOBT(element, tree);
+     break;
+    //case 2: tree = insertAVLT(element, tree);
+    // break;
+   default: 
+   	 insertOBT(element, tree);
+  } //switch mode
+  return tree;
+}// insert
+
+Boolean find(Key_Type element, Table tree) {
+
+	tree_ptr currentNode;
+	int compare;
+
+  //Make sure values are not NULL
+  if (element == NULL || tree == NULL)
+    return FALSE;
+  
+  //Point to the start of the tree and loop while the currentNode isn't NULL
+  for (currentNode = tree->head; currentNode != NULL;)
+  {
+    
+    compare = strcmp(element, currentNode->element);
+    
+    if (compare < 0) 
+    {
+    	//Less than
+      currentNode = currentNode->left;
+    }
+    else if (compare > 0)
+    {
+    	//Greater than
+    	currentNode = currentNode->right;
+    }
+    else
+    {
+    	//Item was found i.e. compare == 0
+      return TRUE; 
+    }
+  } 
+  //Item wasn't found 
+  return FALSE;
+
+}
+
+
+
+//recursively prints through the left and then the right
+void recursive_print_tree(tree_ptr currentNode) {
+
+	if (currentNode == NULL)
+		return;
+	
+	recursive_print_tree(currentNode->left);
+	printf("%s\n", currentNode->element);
+	recursive_print_tree(currentNode->right);
+
+}
+	
+
+void print_table(Table tree) {
+	
+	tree_ptr currentNode;
+		
+	if (tree == NULL)
+		//Nothing to print
+    exit(0);
+  
+  printf("Printing Tree ...\n");
+  currentNode = tree->head;
+  recursive_print_tree(currentNode);
+
+}
+
+//Recursivce definition to get height of tree
+int height(tree_ptr treeHead) { 
+    int heightLeft, heightRight;
+    
+    //If the head is not set i.e. tree is not made
+    if (treeHead == NULL) 
+    	return 0;
+
+    heightLeft = height(treeHead->left);
+    heightRight = height(treeHead->right);
+		
+		//return 1 for head node + whichever branch height is larger
+    return 1 + ((heightLeft > heightRight) ? heightLeft : heightRight);
+}
+
+
+int findNoOfNodes(tree_ptr treeHead) {
+
+	int count;
+	
+	if(treeHead == NULL)
+	  return 0;
+  else {
+    if(treeHead->left == NULL && treeHead->right == NULL)
+      return 1;
+    else
+      return(1 + (findNoOfNodes(treeHead->left) + findNoOfNodes(treeHead->right)));
+  }
+  return count;
+}
+
+int avgNoOfComparisons(tree_ptr treeHead) {
+	tree_ptr currentNode;
+	int comparisons = 1;
+	int probability;
+	
+	if (treeHead == NULL)
+		return 0;
+	
+	//picking each node at random	
+	probability = 1/findNoOfNodes(treeHead);
+	
+	currentNode = treeHead;
+	
+	/*
+	while (currentNode != NULL) {
+		
+	
+	}
+	*/
+	return comparisons;
+	
+
+
+}
+
+void print_stats (Table tree) {
+
+	printf("The height of the tree is: %d\n", height(tree->head));
+	printf("The number of nodes in the tree is: %d\n", findNoOfNodes(tree->head));
+	
+}

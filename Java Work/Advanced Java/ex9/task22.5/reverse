@@ -1,0 +1,43 @@
+}//ReverseLines
+  } 
+    }
+      output.println(headLine);
+      reverseOrder(input, output);
+      //then executes ouput.println(headLine) through all the other methods
+      //the final line where (after reading the next line) the headline is null
+      //recursively call the method and read the next line until you get to
+    {
+    if (headLine != null)
+    //If the headLine is not the final line, execute the code
+    
+    String headLine = input.readLine();
+    //Stores the first line
+  {
+                     throws Exception
+  public static void reverseOrder(BufferedReader input, PrintWriter output)
+  
+  }//main
+ 
+    reverseOrder(inputLines, outputLines);
+    //PrintWriter as arguments
+    //calling the recursive function and passing the BufferedReader and 
+    
+    outputLines = new PrintWriter(System.out, true);
+    inputLines = new BufferedReader(new InputStreamReader(System.in));
+    
+    PrintWriter outputLines = null;
+    BufferedReader inputLines = null;
+    //setting up the input and outputs
+  {
+  public static void main(String[] args) throws Exception
+{
+public class ReverseLines
+ 
+*/ 
+   in reverse order by using a recursive function.
+/* Program reads all the lines from the standard input and ouputs them 
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;

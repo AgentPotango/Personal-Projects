@@ -1,0 +1,11 @@
+#!/bin/bash
+set -v
+java HelloFamily 0 9
+java HelloFamily 3 0
+java HelloFamily 6 0
+java HelloFamily 1 0
+java HelloFamily 0 1
+java HelloFamily 0 10
+java HelloFamily 10 0
+java HelloFamily 2 5
+java HelloFamily 5 2

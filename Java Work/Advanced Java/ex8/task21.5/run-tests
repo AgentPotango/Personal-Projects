@@ -1,0 +1,15 @@
+#!/bin/bash
+
+java StreetOrder
+java StreetOrder regents-crescent.txt
+java StreetOrder regents-crescent.txt /pokemon/apples.txt
+java StreetOrder regents-crescent.txt ~/apples
+java StreetOrder nul pokemon.txt
+java StreetOrder 7 OneOdd
+java StreetOrder 8 OneOddOneEven
+java StreetOrder 9 TwoOddOneEven
+java StreetOrder 10 TwoOddTwoEven
+java StreetOrder 11 ThreeOddTwoEven
+java StreetOrder 12 ThreeOddThreeEven
+
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+java FishTankVolume 1
+java FishTankVolume 1 2
+java FishTankVolume 1 2 3
+java FishTankVolume 1 2 3 4
+java FishTankVolume
+java FishTankVolume 0 0 0
+java FishTankVolume -1 -3 
+java FishTankVolume -3 2 -4
+java FishTankVolume 1 2 3
+

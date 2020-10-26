@@ -1,0 +1,30 @@
+part2: more features, confusion matrix : accuracy, sensitivity: leave-one out cross validation
+	other forms of feature extraction.
+
+
+Accuracy : This is the simplest scoring measure. It calculates the proportion of correctly classified instances.
+
+Accuracy = (TP + TN) / (TP+TN+FP+FN)
+
+Sensitivity (also called Recall or True Positive Rate): Sensitivity is the proportion of actual positives which are correctly identified as positives by the classifier.
+
+Sensitivity = TP / (TP +FN)
+
+Specificity  (also called  True Negative Rate) : Specificity relates to the classifier’s ability to identify negative results. Consider the example of medical test used to identify a certain disease. The specificity of the test is the proportion of patients that do not to have the disease and will successfully test negative for it. In other words:
+
+Specificity: TN / (TN+FP)
+
+Precision: This is a measure of retrieved instances that are relevant. In other words:
+
+Precision: TP/(TP+FP)
+
+
+
+
+part3: maybe average?
+
+COMMENT ALL CODE
+
+report...
+
+ask others on marking criteria

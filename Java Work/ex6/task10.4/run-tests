@@ -1,0 +1,27 @@
+#!/bin/bash
+set -v
+java CompareQuadPoly 6 5 4 6 5 4
+java CompareQuadPoly 5 5 6 6 5 4
+java CompareQuadPoly 1 1 1 1 1 1
+java CompareQuadPoly 2 8 9 2 9 1 
+java CompareQuadPoly 0 0 0 0 0 0
+java CompareQuadPoly 18.4 22.1 4.8 18.4 22.1 4.9 
+java CompareQuadPoly 17 23 6.7 13 6 1.2
+java CompareQuadPoly 14 12.7 13.9 13 12 14
+java CompareQuadPoly 100.1 200.1 100.1 200 500 600.1
+java CompareQuadPoly 1.5 2.5 3.5 4.5 6.5 7.5
+java CompareQuadPoly 1 2 3 2 3 4
+java CompareQuadPoly 14 12.7 13.9 18 12 14
+java CompareQuadPoly 100.1 200.1 300 400 500 600.1
+
+java AddQuadPoly 6 5 4 6 5 4
+java AddQuadPoly 3 2 1 6 5 4
+java AddQuadPoly 1 1 1 1 1 1
+java AddQuadPoly 2 2 2 3 3 3 
+java AddQuadPoly 0 0 0 5 19 26
+java AddQuadPoly 18.4 22.1 4.8 0 0 0 
+java AddQuadPoly 17 23 6.7 13 6 1.2
+java AddQuadPoly 14 12.7 13.9 13 12 14
+java AddQuadPoly 100.1 200.1 300 400 500 600.1
+java AddQuadPoly 1.5 2.5 3.5 4.5 6.5 7.5
+

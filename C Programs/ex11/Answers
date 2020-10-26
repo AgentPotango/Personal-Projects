@@ -1,0 +1,34 @@
+Q1) While loop: 2^200 times 
+
+O(2^n) while loop binary *
+((2n + x) for feasible + o(f) where f is feasible solution) 
+
+Too long on large knapsack problems
+
+Q2) greedy  = fast no matter what
+    enum  = really slow for large values
+    dp = really slow for really large values 100+ (Really big table slower than 2^n)
+    bnb = really really slow for really large values
+
+easy200.txt -> greedy - 4075 All W, dp = 4077 All W, bnb = 4077 All w -> greedy Almost optimal
+hard 200.11.txt -> greedy = 126579 100879/101268 W, 
+		   dp = 126968 All W
+	           bnb = 126801 101101/101268 w
+hard 2000.txt -> greedy = 1205167 942667/942759 W -> really close to optimal
+		 dp = 1205259 All W
+		 bnb = Failed Assertion 10000 -1 Aborted
+
+Q3) greedy -> just value/weight ratio and item is weight is too big -> O(n) easy
+    dp -> hard as large tables for large weight values + higher number of items
+    bnb -> hard for as queueSize isn't big enough
+
+Q4) bnb can fail and takes longer than dp
+    For accuracy, try dp first
+    If taking too long, do greedy for approximate solution
+
+	   
+Enum = O(2n*2^n) = O(n2^n)	    
+Greedy = O(NLogN) for the sort + O(N) for greedy algorithm = O(NLogN);
+DP = O(N*Capacity) table
+BNB =  exponential 2^n-1 nodes
+	Better than enumeration as it won't generate all solutions on average

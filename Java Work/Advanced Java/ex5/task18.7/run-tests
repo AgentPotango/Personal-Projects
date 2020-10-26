@@ -1,0 +1,9 @@
+#!/bin/bash
+
+java Uuencode face.bmp 
+uuencode face.bmp face.bmp 
+
+java Uuencode me.bmp 
+uuencode me.bmp me.bmp 
+
+

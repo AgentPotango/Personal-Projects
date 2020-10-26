@@ -1,0 +1,9 @@
+#!/bin/bash
+set -v
+java DivideCake3 15 10 5
+java DivideCake3 40 30 10
+java DivideCake3 80 40 20
+java DivideCake3 12 3 36
+java DivideCake3 49 42 49
+java DivideCake3 11 11 11
+java DivideCake3 12 14 18

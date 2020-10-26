@@ -1,0 +1,5 @@
+function part2CheckAccuracy(trainingData, traininglbl, ...
+                            kValue, predictionMatrix)
+
+showdata(trainingData, traininglbl, predictionMatrix(kValue,:));
+

@@ -1,0 +1,147 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+#define BOOL char
+#define FALSE 0
+#define TRUE 1
+
+/*struct node {
+	char * text;
+	struct node *left_ptr;
+	struct node *right_ptr;
+}tree;*/
+
+struct node {
+  char *object; 
+  char *question;
+  struct node *yes_ptr; // only NULL for objects
+  struct node *no_ptr; // only NULL for objects
+};
+
+/*void treePrint(struct node *ptr) {
+	struct node *currentNode = ptr;
+	struct node *yesNode = ptr->yes_ptr;
+	struct node *noNode = ptr->no_ptr;
+	
+  if (currentNode == NULL)
+  {
+  }
+  else 
+  {
+    if (currentNode->question == NULL)
+ 	  {
+  	  printf("Object: %s\n" ,currentNode->object);
+  	  printf("Question: [NOTHING]\n");
+ 	  }
+ 	  else
+ 	  {
+ 		  printf("Object: [NOTHING]\n");
+  	  printf("Question: %s\n", currentNode->question);
+
+  	  if (yesNode->question == NULL)
+  	  printf("Yes: \n" ,b->yes_ptr);
+  	  printf("No: %s\n", currentNode->no_ptr);
+   	}
+  }
+ 	
+    
+    // now print its children, left-to-right:
+    treePrint(currentNode->yes_ptr);
+    treePrint(currentNode->no_ptr);
+  }
+}*/
+
+
+void treePrint(struct node *ptr) {
+  struct node *yesNode = ptr->yes_ptr;
+  struct node *noNode = ptr->no_ptr;
+  if (ptr == NULL)
+  {
+  }
+  else {
+    if (ptr->question == NULL)
+    {
+      printf("Object: %s\n" ,ptr->object);
+  	  printf("Question: [NOTHING]\n");
+    }
+    else if (ptr->object == NULL)
+    {
+      printf("Object: [NOTHING]\n");
+  	  printf("Question: %s\n", ptr->question);
+      if (yesNode->question == NULL)
+        printf("Yes: %s\n", yesNode->object);
+      else
+        printf("Yes: %s\n",yesNode->question);
+
+      if (noNode->question == NULL)
+        printf("No: %s\n", noNode->object);
+      else
+        printf("No: %s\n",noNode->question);
+    }
+  	  
+    treePrint(ptr->yes_ptr);
+    treePrint(ptr->no_ptr);
+  }
+}
+
+		
+
+int main(int argc, char*argv[]) {
+
+	struct node *node1 = malloc(sizeof(struct node)); //assigned memory
+	struct node *node2 = malloc(sizeof(struct node));
+	struct node *node3 = malloc(sizeof(struct node));
+	struct node *node4 = malloc(sizeof(struct node));
+	struct node *node5 = malloc(sizeof(struct node));
+	struct node *node6 = malloc(sizeof(struct node));
+	struct node *node7 = malloc(sizeof(struct node));
+	
+	node4->object = "Sky";
+	node4->yes_ptr = NULL;
+	node4->no_ptr = NULL;
+
+	node5->object = "Blue screen of death.";
+	node5->yes_ptr = NULL;
+	node5->no_ptr = NULL;
+
+	node6->object = "Sun";
+	node6->yes_ptr = NULL;
+	node4->no_ptr = NULL;
+	
+	node7->object = "Purple";
+	node7->yes_ptr = NULL;
+	node7->no_ptr = NULL;
+	
+	
+	node1->question = "is it blue?";
+	node1->yes_ptr = node2;
+	node1->no_ptr = node3;
+	
+	node2->question = "Does it have clouds";
+	node2->yes_ptr = node4;
+	node2->no_ptr = node5;
+	
+	node3->question = "is it yellow?";
+	node3->yes_ptr = node6;
+	node3->no_ptr = node7;
+	
+	
+	treePrint(node1);
+	
+	return 0;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 	
+
+  	
+
+

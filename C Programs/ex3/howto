@@ -1,0 +1,109 @@
+	How to write, compile, debug and run C programs on Linux
+	========================================================
+
+There are some prompts below, but you should add anything else you think
+will be useful.
+
+Useful sources of information
+=============================
+
+man gcc:
+
+-g: Produces debugging information in the operating system's native format.
+
+-std=c99: ANSI version of C. Turns off certain features of C which are infomaptible with ISO C90
+	  when compiling the C code such as "asm" and "typeof" keywords. 
+
+-std: Determines the language standard. 
+
+-o: Places the output in a file which you name. 
+
+-Wall: Enables all the warnings about constructions that some users consider questionable and are
+	easy to avoid (or to modify to and prevent the warning).
+
+(See howtoman for more details).
+
+man 3 printf: Produces the man page for the function "printf" for the language C
+	      The three is important as it refers to the C library.
+
+C function printf:  The function printf()  writes the  output to stdout
+			
+ 		    Upon successful return, the function returns the number of characters
+   		    printed or if an error has occured, the function returns -1.
+
+
+Writing C programs
+==================
+Write make <program name goes here>.c  without the < >
+
+Make sure to include the relevant librarys for the functions you use. 
+
+
+Compiling C programs
+====================
+
+To compile:
+gcc -g -std=c99 -Wall  -lm  part2A.c   -o part2A
+
+the make command, which gets information from your makefile, compiles a C program. make used gcc (the Gnu C Compiler) to create a binary program HelloWorld.
+
+
+When not writing: #include <stdio.h>:
+
+HelloWorld.c: In function 'main':
+HelloWorld.c:5: warning: implicit declaration of function 'printf'
+HelloWorld.c:5: warning: incompatible implicit declaration of built-in function 'printf'
+
+So the error lies in the function main on line 5 where there is an incompatible implicit declaration
+of printf (as we haven't included the standard input output library).
+
+Error "undefined reference to `lround'":
+
+gcc has compiled the program without problems, but then called on the linker, ld, to add pre-compiled code from the libraries to your compiled program, and ld cannot find the library code for lround
+
+If the library is included in the C program, then check if the compiter has stated that the
+linker flags you need to use is -lm. 
+
+
+Linking C programs
+==================
+ld combines a number of object and archive files, relocates their data
+and ties up symbol references. Usually the last step in compiling a
+program is to run ld.
+
+
+Running C programs
+==================
+One a c program has been compiled, they can be run directly without the use of an interpreter (i.e. unlike Java programs, you don't have to use e.g. java HelloWorld to run your compiled program).
+
+Comparing output from C and Java programs
+=========================================
+
+storing the outputs into jversion and cversion respectively and finding the differences in outputs
+using diff cversion jversion gives the following:
+2c2
+< The mean salary is:   24626.666667
+---
+> The mean salary is:   24626.666666666668
+
+So:
+java outputs:
+The mean salary is:     24626.666666666668
+
+C outputs:
+The mean salary is:     24626.666667
+
+Both programs are using doubles to store the variables.
+C produces a decimal floating point, lowercase version of the number (using printf and flag %f)
+java produces a more precise value.
+
+C outputs fewer decimal places than java (6 vs.12)
+
+
+
+
+
+
+
+
+

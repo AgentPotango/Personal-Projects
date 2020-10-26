@@ -1,0 +1,9 @@
+#!/bin/bash
+
+java CheckSum < CheckSum.java
+sum CheckSum.java
+
+java CheckSum < someFile.txt
+sum someFile.txt
+
+

@@ -1,0 +1,13 @@
+$query ---> search for name and get its ID
+$getCatEVents --> search in csEvents for CatKey that you just found
+
+SELECT * FROM csE
+echo' 
+table 3x3 --->
+EventID 1 ---> EventID2 ---> EventID3
+EventID 4 --->  etc
+
+<a href= ./EventPage?CatID=$var
+
+
+

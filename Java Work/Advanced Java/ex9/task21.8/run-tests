@@ -1,0 +1,9 @@
+#!/bin/bash
+
+java DuplicateVoters
+java DuplicateVoters voting.txt
+java DuplicateVoters voting.txt duplicate.txt 5
+java DuplicateVoters voting.txt duplicate.txt | less duplicate.txt
+java DuplicateVoters noDuplicates.txt noDuplicates1.txt | less noDuplicates.txt
+
+
