@@ -1,0 +1,58 @@
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.exe
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.pdb
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.xml
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\ResolveAssemblyReference.cache
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.frmStock.resources
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.Resources.resources
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.vbproj.GenerateResource.Cache
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.exe
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.xml
+C:\User\Teaching\A Level Computing\AS Computing\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.pdb
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.exe
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.xml
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.pdb
+H:\Development\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.exe
+H:\Development\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.pdb
+H:\Development\VB2008\17 Binary File\Stock\Stock\bin\Debug\Stock.xml
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.frmStock.resources
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.Resources.resources
+H:\Development\VB2008\17 Binary File\Stock\Stock\obj\Debug\Stock.vbproj.GenerateResource.Cache
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.exe
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.xml
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.pdb
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.exe
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.pdb
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.xml
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\ResolveAssemblyReference.cache
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.frmStock.resources
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.Resources.resources
+F:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.vbproj.GenerateResource.Cache
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.exe
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.xml
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.pdb
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.exe
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.pdb
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\bin\Debug\Stock.xml
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\ResolveAssemblyReference.cache
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.frmStock.resources
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\Stock.Resources.resources
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\AS Computing\VB2008\18 Binary File\Stock\Stock\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\Stock.exe
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\Stock.xml
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\Stock.pdb
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\bin\Debug\Stock.exe
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\bin\Debug\Stock.pdb
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\bin\Debug\Stock.xml
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\ResolveAssemblyReference.cache
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\Stock.frmStock.resources
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\Stock.Resources.resources
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\AS Computing\VB2010\18 Binary File\Stock\Stock\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.exe
+E:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.xml
+E:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.pdb
+H:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.exe
+H:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.xml
+H:\Computer Holiday Work\Stock\Stock\obj\Debug\Stock.pdb

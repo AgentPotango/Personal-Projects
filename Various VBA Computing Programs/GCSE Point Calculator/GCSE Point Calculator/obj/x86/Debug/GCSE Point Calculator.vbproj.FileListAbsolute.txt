@@ -1,0 +1,15 @@
+D:\GCSE Point Calculator\GCSE Point Calculator\bin\Debug\GCSE Point Calculator.exe
+D:\GCSE Point Calculator\GCSE Point Calculator\bin\Debug\GCSE Point Calculator.pdb
+D:\GCSE Point Calculator\GCSE Point Calculator\bin\Debug\GCSE Point Calculator.xml
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE_Point_Calculator.Form1.resources
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE_Point_Calculator.Resources.resources
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.exe
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.xml
+D:\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.pdb
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.exe
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.xml
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.pdb
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\GCSE Point Calculator\GCSE Point Calculator\obj\x86\Debug\GCSE Point Calculator.vbprojResolveAssemblyReference.cache

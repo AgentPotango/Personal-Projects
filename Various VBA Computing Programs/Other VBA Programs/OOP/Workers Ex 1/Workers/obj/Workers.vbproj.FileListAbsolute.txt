@@ -1,0 +1,10 @@
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.exe
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.xml
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.pdb
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\bin\Debug\Workers.exe
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\bin\Debug\Workers.pdb
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\bin\Debug\Workers.xml
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\ResolveAssemblyReference.cache
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.frmWorker.resources
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.Resources.resources
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\Workers Ex1\Workers\obj\Debug\Workers.vbproj.GenerateResource.Cache

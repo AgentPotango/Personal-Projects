@@ -1,0 +1,10 @@
+bin\Debug\Employee.exe
+bin\Debug\Employee.pdb
+bin\Debug\Employee.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Employee.frmEmployee.resources
+obj\Debug\Employee.Resources.resources
+obj\Debug\Employee.vbproj.GenerateResource.Cache
+obj\Debug\Employee.exe
+obj\Debug\Employee.xml
+obj\Debug\Employee.pdb

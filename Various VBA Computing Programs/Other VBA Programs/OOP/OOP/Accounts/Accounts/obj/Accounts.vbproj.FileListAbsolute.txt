@@ -1,0 +1,10 @@
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\Accounts1.exe
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\Accounts1.xml
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\Accounts1.pdb
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\bin\Debug\Accounts1.exe
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\bin\Debug\Accounts1.pdb
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\bin\Debug\Accounts1.xml
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\ResolveAssemblyReference.cache
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\WindowsApplication1.frmAccounts.resources
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\WindowsApplication1.Resources.resources
+C:\User\Teaching\A Level Computing\A2 Computing\CPT4 0809\13.2\OOP\OOP\Accounts\Accounts\obj\Debug\Accounts.vbproj.GenerateResource.Cache

@@ -1,0 +1,25 @@
+I:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.exe
+I:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.pdb
+I:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.xml
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\WindowsApplication1.Form1.resources
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\WindowsApplication1.Resources.resources
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.exe
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.xml
+I:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.pdb
+D:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.exe
+D:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.xml
+D:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.pdb
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.exe
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.xml
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\Counting - Searching.pdb
+G:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.exe
+G:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.pdb
+G:\Counting & Searching\Counting - Searching\Counting - Searching\bin\Debug\Counting - Searching.xml
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Counting & Searching\Counting - Searching\Counting - Searching\obj\x86\Debug\GenerateResource.write.1.tlog

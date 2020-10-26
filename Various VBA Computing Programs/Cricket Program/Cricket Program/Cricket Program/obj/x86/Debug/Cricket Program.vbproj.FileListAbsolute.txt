@@ -1,0 +1,10 @@
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\bin\Debug\Cricket Program.exe
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\bin\Debug\Cricket Program.pdb
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\bin\Debug\Cricket Program.xml
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\ConsoleApplication1.Resources.resources
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\Cricket Program.exe
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\Cricket Program.xml
+G:\Computing\Cricket Program\Cricket Program\Cricket Program\obj\x86\Debug\Cricket Program.pdb

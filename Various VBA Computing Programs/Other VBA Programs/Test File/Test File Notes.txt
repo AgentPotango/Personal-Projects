@@ -1,0 +1,66 @@
+Private Function Encrypt(ByVal S As String) As String
+        Dim EC As String
+        Dim UC As String
+        Dim L As Integer
+        L = Len(S)
+        Encrypt = ""
+        EC = ""
+        For Me.C = 0 To L - 1
+            UC = S(L - 1)
+            Select Case UC
+                Case "A"
+                    EC = "n"
+                Case "B"
+                    EC = "o"
+                Case "C"
+                    EC = "p"
+                Case "D"
+                    EC = "q"
+                Case "E"
+                    EC = "r"
+                Case "F"
+                    EC = "s"
+                Case "G"
+                    EC = "t"
+                Case "H"
+                    EC = "u"
+                Case "I"
+                    EC = "v"
+                Case "J"
+                    EC = "w"
+                Case "K"
+                    EC = "x"
+                Case "L"
+                    EC = "y"
+                Case "M"
+                    EC = "z"
+                Case "N"
+                    EC = "a"
+                Case "O"
+                    EC = "b"
+                Case "P"
+                    EC = "c"
+                Case "Q"
+                    EC = "d"
+                Case "R"
+                    EC = "e"
+                Case "S"
+                    EC = "f"
+                Case "T"
+                    EC = "g"
+                Case "U"
+                    EC = "h"
+                Case "V"
+                    EC = "i"
+                Case "W"
+                    EC = "j"
+                Case "X"
+                    EC = "k"
+                Case "Y"
+                    EC = "l"
+                Case "Z"
+                    EC = "m"
+            End Select
+            Encrypt = Encrypt & EC
+        Next C
+    End Function

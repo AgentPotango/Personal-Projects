@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "COMP1Summer2011", "COMP1Summer2011\COMP1Summer2011.vbproj", "{C8CE8179-1006-49D1-94E3-A24C6B187BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8CE8179-1006-49D1-94E3-A24C6B187BAE}.Debug|x86.ActiveCfg = Debug|x86
+		{C8CE8179-1006-49D1-94E3-A24C6B187BAE}.Debug|x86.Build.0 = Debug|x86
+		{C8CE8179-1006-49D1-94E3-A24C6B187BAE}.Release|x86.ActiveCfg = Release|x86
+		{C8CE8179-1006-49D1-94E3-A24C6B187BAE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

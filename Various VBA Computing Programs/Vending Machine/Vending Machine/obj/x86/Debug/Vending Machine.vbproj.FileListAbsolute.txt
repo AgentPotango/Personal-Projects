@@ -1,0 +1,22 @@
+D:\Vending Machine\Vending Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Vending Machine\Vending Machine\obj\x86\Debug\WindowsApplication1.Form.resources
+D:\Vending Machine\Vending Machine\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Vending Machine\Vending Machine\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Vending Machine\Vending Machine\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.exe
+D:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.pdb
+D:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.xml
+D:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.exe
+D:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.xml
+D:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.pdb
+G:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.exe
+G:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.xml
+G:\Vending Machine\Vending Machine\obj\x86\Debug\Vending Machine.pdb
+G:\Vending Machine\Vending Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.exe
+G:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.pdb
+G:\Vending Machine\Vending Machine\bin\Debug\Vending Machine.xml
+G:\Vending Machine\Vending Machine\obj\x86\Debug\WindowsApplication1.Form.resources
+G:\Vending Machine\Vending Machine\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\Vending Machine\Vending Machine\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Vending Machine\Vending Machine\obj\x86\Debug\GenerateResource.write.1.tlog

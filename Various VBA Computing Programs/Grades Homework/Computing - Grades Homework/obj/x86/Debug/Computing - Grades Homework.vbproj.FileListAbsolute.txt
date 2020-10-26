@@ -1,0 +1,21 @@
+D:\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.exe
+D:\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.pdb
+D:\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.xml
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.exe
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.xml
+D:\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.pdb
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.exe
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.xml
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.pdb
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.exe
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.pdb
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\bin\Debug\Computing - Grades Homework.xml
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.vbprojResolveAssemblyReference.cache
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing - Grades Homework\Computing - Grades Homework\obj\x86\Debug\Computing - Grades Homework.vbproj.GenerateResource.Cache

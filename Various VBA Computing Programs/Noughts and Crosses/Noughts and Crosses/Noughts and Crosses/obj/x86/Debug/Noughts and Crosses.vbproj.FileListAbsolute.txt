@@ -1,0 +1,11 @@
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\bin\Debug\Noughts and Crosses.exe
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\bin\Debug\Noughts and Crosses.pdb
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\bin\Debug\Noughts and Crosses.xml
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\Noughts and Crosses.exe
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\Noughts and Crosses.xml
+D:\Computing\Noughts and Crosses\Noughts and Crosses\Noughts and Crosses\obj\x86\Debug\Noughts and Crosses.pdb

@@ -1,0 +1,11 @@
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\bin\Debug\Cement Purchase Invoice.exe
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\bin\Debug\Cement Purchase Invoice.pdb
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\bin\Debug\Cement Purchase Invoice.xml
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\Cement Purchase Invoice.exe
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\Cement Purchase Invoice.xml
+D:\VB2010\Visual Basic\Intro2Q4\Cement Purchase Invoice\Cement Purchase Invoice\obj\x86\Debug\Cement Purchase Invoice.pdb

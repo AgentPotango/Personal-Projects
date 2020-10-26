@@ -1,0 +1,11 @@
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Form1.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\WindowsApplication2.Resources.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb

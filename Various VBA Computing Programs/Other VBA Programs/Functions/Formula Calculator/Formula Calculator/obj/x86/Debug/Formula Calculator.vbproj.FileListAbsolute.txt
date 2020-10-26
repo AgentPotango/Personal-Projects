@@ -1,0 +1,11 @@
+D:\Functions\Formula Calculator\Formula Calculator\bin\Debug\Formula Calculator.exe
+D:\Functions\Formula Calculator\Formula Calculator\bin\Debug\Formula Calculator.pdb
+D:\Functions\Formula Calculator\Formula Calculator\bin\Debug\Formula Calculator.xml
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\Formula Calculator.exe
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\Formula Calculator.xml
+D:\Functions\Formula Calculator\Formula Calculator\obj\x86\Debug\Formula Calculator.pdb

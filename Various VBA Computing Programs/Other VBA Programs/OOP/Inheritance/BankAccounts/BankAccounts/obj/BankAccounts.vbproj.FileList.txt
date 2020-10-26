@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BankAccounts.frmAccounts.resources
+obj\Debug\BankAccounts.Resources.resources
+obj\Debug\BankAccounts.vbproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\BankAccounts.frmAccounts.resources
+obj\Release\BankAccounts.Resources.resources
+obj\Release\BankAccounts.vbproj.GenerateResource.Cache
+bin\Debug\BankAccounts.exe
+bin\Debug\BankAccounts.pdb
+bin\Debug\BankAccounts.xml
+obj\Debug\BankAccounts.exe
+obj\Debug\BankAccounts.xml
+obj\Debug\BankAccounts.pdb

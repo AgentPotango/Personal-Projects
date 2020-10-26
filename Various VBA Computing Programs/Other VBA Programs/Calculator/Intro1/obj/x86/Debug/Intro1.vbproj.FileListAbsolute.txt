@@ -1,0 +1,36 @@
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\bin\Debug\Intro1.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\bin\Debug\Intro1.pdb
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\bin\Debug\Intro1.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\Intro1.Form1.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\Intro1.Resources.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\Intro1.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\Intro1.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Intro1\obj\x86\Debug\Intro1.pdb
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\Intro1.exe
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\Intro1.xml
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\Intro1.pdb
+C:\VB2010\Kashif\Intro1\Intro1\bin\Debug\Intro1.exe
+C:\VB2010\Kashif\Intro1\Intro1\bin\Debug\Intro1.pdb
+C:\VB2010\Kashif\Intro1\Intro1\bin\Debug\Intro1.xml
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\Intro1.Form1.resources
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\Intro1.Resources.resources
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VB2010\Kashif\Intro1\Intro1\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.exe
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.xml
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.pdb
+J:\Computing Calculator thingy\Intro1\bin\Debug\Intro1.exe
+J:\Computing Calculator thingy\Intro1\bin\Debug\Intro1.pdb
+J:\Computing Calculator thingy\Intro1\bin\Debug\Intro1.xml
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.Form1.resources
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.Resources.resources
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\Computing Calculator thingy\Intro1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.exe
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.xml
+F:\Users\Kaeze PhoeniX\Desktop\USB 8 GB BACKUP\Computing Calculator thingy\Intro1\obj\x86\Debug\Intro1.pdb

@@ -1,0 +1,11 @@
+D:\Test File\Test File\bin\Debug\Test File.exe
+D:\Test File\Test File\bin\Debug\Test File.pdb
+D:\Test File\Test File\bin\Debug\Test File.xml
+D:\Test File\Test File\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Test File\Test File\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Test File\Test File\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Test File\Test File\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Test File\Test File\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Test File\Test File\obj\x86\Debug\Test File.exe
+D:\Test File\Test File\obj\x86\Debug\Test File.xml
+D:\Test File\Test File\obj\x86\Debug\Test File.pdb

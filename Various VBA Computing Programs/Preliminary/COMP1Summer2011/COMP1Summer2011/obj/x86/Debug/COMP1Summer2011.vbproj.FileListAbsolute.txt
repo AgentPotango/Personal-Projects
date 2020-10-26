@@ -1,0 +1,30 @@
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.exe
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.pdb
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.xml
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ConsoleApplication1.Resources.resources
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.exe
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.xml
+E:\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.pdb
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.exe
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.xml
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.pdb
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.exe
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.pdb
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.xml
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ConsoleApplication1.Resources.resources
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.read.1.tlog
+P:\ICT\P Harker\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.exe
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.xml
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\COMP1Summer2011.pdb
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.exe
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.pdb
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\bin\Debug\COMP1Summer2011.xml
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\ConsoleApplication1.Resources.resources
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Computing\Preliminary\COMP1Summer2011\COMP1Summer2011\obj\x86\Debug\GenerateResource.write.1.tlog

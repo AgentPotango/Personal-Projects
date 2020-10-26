@@ -1,0 +1,33 @@
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.exe
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.pdb
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.xml
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.Resources.resources
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.exe
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.xml
+E:\AS Computing\VB2010\16 Text File\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.pdb
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.exe
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.xml
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.pdb
+F:\Development\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.exe
+F:\Development\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.pdb
+F:\Development\ExamTextFile\TextFile1\TextFile1\bin\Debug\TextFile1.xml
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.Resources.resources
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Development\ExamTextFile\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\AS Computing\VB2010\16 Text File\Console TextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.exe
+F:\AS Computing\VB2010\16 Text File\Console TextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.xml
+F:\AS Computing\VB2010\16 Text File\Console TextFile\TextFile1\TextFile1\obj\x86\Debug\TextFile1.pdb
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\TextFile1.exe
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\TextFile1.xml
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\TextFile1.pdb
+D:\Computing\TextFile1\TextFile1\bin\Debug\TextFile1.exe
+D:\Computing\TextFile1\TextFile1\bin\Debug\TextFile1.pdb
+D:\Computing\TextFile1\TextFile1\bin\Debug\TextFile1.xml
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\TextFile1.Resources.resources
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Computing\TextFile1\TextFile1\obj\x86\Debug\GenerateResource.write.1.tlog

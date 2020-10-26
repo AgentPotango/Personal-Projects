@@ -1,0 +1,36 @@
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\bin\Debug\Bubble Sort.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\bin\Debug\Bubble Sort.pdb
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\bin\Debug\Bubble Sort.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\Bubble_Sort.Form1.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\Bubble_Sort.Resources.resources
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\Bubble Sort.exe
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\Bubble Sort.xml
+C:\Documents and Settings\2901164\Local Settings\Application Data\Temporary Projects\Bubble Sort\obj\x86\Debug\Bubble Sort.pdb
+D:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.exe
+D:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.xml
+D:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.pdb
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.exe
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.xml
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.pdb
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.exe
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.pdb
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.xml
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble_Sort.Form1.resources
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble_Sort.Resources.resources
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.exe
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.xml
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble Sort.pdb
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.exe
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.pdb
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\bin\Debug\Bubble Sort.xml
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble_Sort.Form1.resources
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\Bubble_Sort.Resources.resources
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Computing\Bubble Sort\Bubble Sort\Bubble Sort\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,11 @@
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\bin\Debug\Procedures - Areas.exe
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\bin\Debug\Procedures - Areas.pdb
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\bin\Debug\Procedures - Areas.xml
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\Procedures - Areas.exe
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\Procedures - Areas.xml
+G:\Computing\Procedures\2. Procedures - Areas\Procedures - Areas\Procedures - Areas\obj\x86\Debug\Procedures - Areas.pdb

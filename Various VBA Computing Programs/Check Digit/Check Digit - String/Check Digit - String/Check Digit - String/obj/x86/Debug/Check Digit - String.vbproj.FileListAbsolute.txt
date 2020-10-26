@@ -1,0 +1,36 @@
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.exe
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.pdb
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.xml
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.exe
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.xml
+D:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.pdb
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.exe
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.xml
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.pdb
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.exe
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.pdb
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.xml
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Form1.resources
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Resources.resources
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.exe
+E:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.xml
+E:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.pdb
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.exe
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.xml
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\Check Digit - String.pdb
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.exe
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.pdb
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\bin\Debug\Check Digit - String.xml
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Form1.resources
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\WindowsApplication1.Resources.resources
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Computing\Check Digit\Check Digit - String\Check Digit - String\Check Digit - String\obj\x86\Debug\GenerateResource.write.1.tlog
