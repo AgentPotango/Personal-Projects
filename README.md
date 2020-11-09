@@ -1,7 +1,7 @@
 # Personal-Projects
 Directory of all the applications or other such projects I have completed or am undertaking whether through virtual internships, studying, personal work or otherwise. <br> <br>
 **Betting Website**<br>
-Collaborative effort. Coded MySQL, PHP, HTML, CSS, JavaScript, AJAX. Presentation and Gantt charts available in the presentation folder.
+Collaborative effort. Coded MySQL, PHP, HTML, CSS, JavaScript, AJAX. Presentation and Gantt charts available in the presentation folder.<br>
 **6 Month long project.**<br><br>
 **Compressed Sensing in MRI**<br>
 Master's Project coded in Matlab. Report produced in LaTeX and converted to PDF.<br> 
