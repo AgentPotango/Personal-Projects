@@ -1,7 +1,8 @@
-#Machine Learning Course by Standford University (Coursera)
+# Machine Learning Course by Standford University (Coursera)
+<br>
 Uploaded in this directory will be my completed exercises for the course demonstraing my proficiency in machine learning. 
 
-**Exercise 1:** 
+**Exercise 1:** <br>
 Supervised learning with functions for the cost function, gradient descent for multiple parameters and normal equations <br><br>
 Covers implementing the cost function and gradient descent for multiple parameters as well as normalization of the the training sets.<br>
 Normalisation involved subtracting the mean and dividing by either the Max-Min or the standard deviation allowing for faster convergence of the gradient descent algorithm. <br>
